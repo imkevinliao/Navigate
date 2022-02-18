@@ -1,13 +1,13 @@
-# 源码
-src:[0]C701HIV_M030_f[73]_w[4096]_h[2304]_ISO_56.raw      
-dst:C701HIV_M030_id(001)_FID_323331363030313533323035553030_EI_000100s_286_ISO_56_LV_87_ DGAIN_ 1796 _ WHBF_4096_2304_num. 001.raw     
-```python3
 import os
 import re
 import shutil
 import struct
 import xml.etree.ElementTree as ET
 
+"""
+src:[0]C701HIV_M030_f[73]_w[4096]_h[2304]_ISO_56.raw      
+dst:C701HIV_M030_id(001)_FID_323331363030313533323035553030_EI_000100s_286_ISO_56_LV_87_ DGAIN_ 1796 _ WHBF_4096_2304_num. 001.raw   
+"""
 
 def get_dgain(dgain_path):
     dgain = []
@@ -150,4 +150,3 @@ if __name__ == '__main__':
     # just_do_it()
     # delete_raw_type_file()
     ...
-```
