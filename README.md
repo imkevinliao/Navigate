@@ -1,5 +1,6 @@
 # PyCode
 my presonal python code
+python版本需3.7+，本人习惯print的f'{}'语法
 
 # git更新
 起因：多个Git仓库需要更新，不想手动点   
