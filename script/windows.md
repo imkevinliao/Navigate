@@ -17,6 +17,6 @@ windows打开回收站
 2. 敲入并回车：shell:RecycleBinFolder
 
 windows打开计算器（常用）
-> 无论是在cmd命令行还是powershell亦或是windows + r. 敲入并回车即可: calc   
+> 无论是在cmd 还是 powershell 亦或是 windows + r. 敲入并回车即可: calc   
 
 
