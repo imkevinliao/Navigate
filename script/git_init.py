@@ -3,7 +3,7 @@ import os
 """
 配置说明：
 请修改 cmd_user 为自己的用户名和邮箱地址
-有的时候会因为编码问题导致clone的代码在本地无法正常编译，需要对乱码问题进行处理
+git在windows下，默认是CRLF作为换行符，git add 提交时，检查文本中有LF 换行符（linux系统里面的），则会告警。所以问题的解决很简单，让git忽略该检查即可 git config --global core.autocrlf false
 git status不能显示中文的问题也需要对core进行配置，还需要在gitbash终端设置本地Local为zh_CN，字符集为UTF-8
 """
 
@@ -13,15 +13,16 @@ git status不能显示中文的问题也需要对core进行配置，还需要在
 网上通常是这个：git config --global alias.lg --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --
 """
 
+git_lg = """ git config --global alias.lg "log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit" """
+
 def git_command():
     cmd = []
     cmd_user = ['git config --global user.name "imkevinliao"', 'git config --global user.email "imkevinliao@gmail.com"']
-    cmd_encode = ['git config --global core.autocrlf true', 'git config --global core.safecrlf true']
+    cmd_encode = ['git config --global core.autocrlf false', 'git config --global core.safecrlf true']
     cmd_chinese = ['git config --global core.quotepath false']
     cmd_alias = ['git config --global alias.gp pull', 'git config --global alias.br branch',
                  'git config --global alias.co checkout', 'git config --global alias.ci commit',
-                 'git config --global alias.st status',
-                 "git config --global alias.lg "log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"]
+                 'git config --global alias.st status', git_lg]
     cmd_editor = ['git config --global core.editor vim']
     cmd.extend(cmd_user)
     cmd.extend(cmd_user)
