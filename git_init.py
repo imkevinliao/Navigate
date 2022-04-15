@@ -1,10 +1,17 @@
 import os
 
 """
+配置说明：
+请修改 cmd_user 为自己的用户名和邮箱地址
 有的时候会因为编码问题导致clone的代码在本地无法正常编译，需要对乱码问题进行处理
 git status不能显示中文的问题也需要对core进行配置，还需要在gitbash终端设置本地Local为zh_CN，字符集为UTF-8
 """
 
+"""
+个人更喜欢这个：git config --global alias.lg "log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
+这个更详细一些：git config --global alias.lg "log --no-merges --color --stat --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
+网上通常是这个：git config --global alias.lg --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --
+"""
 
 def git_command():
     cmd = []
@@ -14,9 +21,9 @@ def git_command():
     cmd_alias = ['git config --global alias.gp pull', 'git config --global alias.br branch',
                  'git config --global alias.co checkout', 'git config --global alias.ci commit',
                  'git config --global alias.st status',
-                 "git config --global alias.lg --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --"]
+                 "git config --global alias.lg "log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"]
     cmd_editor = ['git config --global core.editor vim']
-    # cmd.extend(cmd_user)
+    cmd.extend(cmd_user)
     cmd.extend(cmd_user)
     cmd.extend(cmd_encode)
     cmd.extend(cmd_chinese)
