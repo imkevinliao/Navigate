@@ -8,8 +8,11 @@ import logging
 # LOG_FILENAME = "app.log"
 # logging.basicConfig(format=LOG_FORMAT, datefmt=LOG_DATE_FORMATE, level=logging.INFO, filename=LOG_FILENAME)
 
-logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s", datefmt="%Y-%m-%d %H:%M:%S(%p)",
-                    level=logging.INFO, filename="app.log")
+# python 3.9 basicConfig 才有参数：encoding="utf-8"，解决log中文乱码问题. 这里使用handlers解决
+logging.basicConfig(format="%(asctime)s %(levelname)s [line:%(lineno)d] %(message)s", datefmt="%Y-%m-%d %H:%M:%S(%p)",
+                    level=logging.INFO,
+                    handlers=[logging.FileHandler(filename="app.log", encoding='utf-8', mode='a+')])
+
 
 logging.warning('Admin logged out')
 logging.info('hello')
@@ -26,3 +29,8 @@ name = 'John'
 
 logging.error('%s raised an error', name)
 logging.error(f'{name} raised an error')
+
+logging.fatal("致命错误")
+
+# 日志级别
+# DEBUG（10）、INFO（20）、WARNING（30）、ERROR（40）、CRITICAL（50）
