@@ -25,9 +25,8 @@ def git_command():
                  'git config --global alias.st status', git_lg]
     cmd_editor = ['git config --global core.editor vim']
     cmd.extend(cmd_user)
-    cmd.extend(cmd_user)
-    cmd.extend(cmd_encode)
-    cmd.extend(cmd_chinese)
+    # cmd.extend(cmd_encode)
+    # cmd.extend(cmd_chinese)
     cmd.extend(cmd_alias)
     cmd.extend(cmd_editor)
     return cmd
