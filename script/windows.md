@@ -19,4 +19,27 @@ windows打开回收站
 windows打开计算器（常用）
 > 无论是在cmd 还是 powershell 亦或是 windows + r. 敲入并回车即可: calc   
 
+查看硬盘类型
+>命令:Get-PhysicalDisk,查看电脑硬盘属性ssd(固态)还是hdd(机械)
 
+一些很有用的Bat命令：
+```
+Robocopy /MIR h:\MyBook\temp h:\MyBook\delete  ;文件路径太深无法删除，前一个为空文件夹，后一个为待删除的文件夹 
+rd/s/q D:\app ;强制删除文件夹及子目录
+ren *.flv *.mp4 ;批量改后缀(前面为原后缀，后面为修改后缀，文件同一目录下） 
+FOR /F %%I IN ('DIR /B /S "D:\temp\*.*"') DO (MOVE %%I  "D:\Test") ;Pause ; 批量移动temp目录下所有文件到Test.   
+
+文件路径找不到无法删除.拖拽进来即可:
+DEL /F /A /Q \\?\%1
+RD /S /Q \\?\%1
+
+批量删除文件名中特定字符串:放在需要的目录下双击即可:
+@echo off
+Setlocal Enabledelayedexpansion
+set "str=想要去掉的字符串"
+for /f "delims=" %%i in ('dir /b *.*') do (
+set "var=%%i" & ren "%%i" "!var:%str%=!")
+
+查看电脑连接过的wifi密码:
+for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | findstr -i -v echo | netsh wlan show profiles %j key=clear
+```
