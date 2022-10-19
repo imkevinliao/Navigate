@@ -16,6 +16,8 @@
 - [xlwings处理excel](./code/xlwings)
 - [移动文件 处理raw图](./code/move_files)
 - [python logging 模块配置](./code/logging_module.py)
+- [自己封装的logging模块](./code/my_logging.py)
+- [自己封装的实用装饰器](./code/my_wrapper.py)
 # projects
 - [读取bin txt xml内容 并计算 重命名文件](./projects/rename)
 - [将中华文化诗词曲并持久化 Mysql](./projects/poem)
