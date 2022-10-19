@@ -1,10 +1,18 @@
 # imkevinliao
-所有的脚本都是为了提高效率，从而有时间可以享受生活，如果不能将人解放出来，那，它就是失败的
-# Tips
-## [windows tips](./script/windows.md)  
-关于windows的一些命令
-## [linux tips](./script/linux.md)
-关于linux的一些命令
+人生苦短，我用Python
+
+生命有限，应当浪费在：花花草草，山山水水，风风雨雨
+
+生命有限，好的代码应该像BeyondCompare一样，没有任何学习成本，拿来即用，解放自我，有更多的时间可以学习泡咖啡，做美食，晒太阳，去生活
+
+# markdown
+[一行代码的魅力](./markdown/一行代码.md)  
+
+[windows10的一些小技巧](./markdown/windows.md)
+
+[linux的一些小技巧](./markdown/linux.md)
+
+
 # 脚本
 - [Git仓库更新脚本](./script/git_update.py)
 - [Git基础配置 为了更舒适的Git体验](./script/git_init.py)
