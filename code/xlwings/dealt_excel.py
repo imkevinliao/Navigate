@@ -2,7 +2,7 @@ import xlwings as xw
 import re
 
 sheet_name = "工作表1"
-file_path = r'C:/Users/kevin/Desktop/my.xlsx'
+file_path = r'my.xlsx'
 
 app = xw.App(visible=False)
 wb = app.books.open(file_path)

@@ -1,6 +1,5 @@
 import os
 
-
 def find_git(path_dirs):
     my_list = []
     for _ in path_dirs:
@@ -12,7 +11,6 @@ def find_git(path_dirs):
 
 def get_dirs():
     path_dirs = []
-    num = 0
     for root, dirs, files in os.walk(main_path):
         for dir_name in dirs:
             path_dirs.append(os.path.join(root, dir_name))

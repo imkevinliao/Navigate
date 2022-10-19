@@ -6,6 +6,7 @@ import logging
 # LOG_FORMAT = "%(asctime)s %(levelname)s: %(message)s"
 # LOG_DATE_FORMATE = "%Y-%m-%d %H:%M:%S(%p)"
 # LOG_FILENAME = "app.log"
+
 # logging.basicConfig(format=LOG_FORMAT, datefmt=LOG_DATE_FORMATE, level=logging.INFO, filename=LOG_FILENAME)
 
 # python 3.9 basicConfig 才有参数：encoding="utf-8"，解决log中文乱码问题. 这里使用handlers解决

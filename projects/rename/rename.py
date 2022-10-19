@@ -95,7 +95,7 @@ def my_rename(name_list, info_list, lv_list, dgain_list, dir_path):
 
 
 def just_do_it():
-    """it's the core code,for rename file name"""
+    """it's the core projects,for rename file name"""
     print(f'The working directory you specified is {work_path}, prepare arguments for python program to rename...')
     paths = get_path()
     for path in paths:

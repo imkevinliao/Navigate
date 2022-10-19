@@ -6,19 +6,18 @@
 生命有限，好的代码应该像BeyondCompare一样，没有任何学习成本，拿来即用，解放自我，有更多的时间可以学习泡咖啡，做美食，晒太阳，去生活
 
 # markdown
-[一行代码的魅力](./markdown/一行代码.md)  
-
-[windows10的一些小技巧](./markdown/windows.md)
-
-[linux的一些小技巧](./markdown/linux.md)
-
-
-# 脚本
-- [Git仓库更新脚本](./script/git_update.py)
-- [Git基础配置 为了更舒适的Git体验](./script/git_init.py)
-- [三国杀游戏脚本](./sanguosha/san_guo_sha.py)
-- [文件重命名脚本](./rename/rename.py )
-- [xlwings库处理Excel数据](./excel/dealt_excel.py)
-# Python运行脚本
-Linux下查找python：whereis python. 得到结果中有形如:/usr/bin/python3.8, 请确保Python Version > 3.7   
-使用方式：/usr/bin/python3.8 + 脚本名
+- [一行代码的魅力](./markdown/一行代码.md)
+- [windows10的一些小技巧](./markdown/windows.md)
+- [linux的一些小技巧](./markdown/linux.md)
+# scripts
+- [Git基础配置脚本](./scripts/git_config.py)
+- [Git自动更新脚本](./scripts/git_update.py)
+# code
+- [xlwings处理excel](./code/xlwings)
+- [移动文件 处理raw图](./code/move_files)
+- [python logging 模块配置](./code/logging_module.py)
+# projects
+- [读取bin txt xml内容 并计算 重命名文件](./projects/rename)
+- [将中华文化诗词曲并持久化 Mysql](./projects/poem)
+- [很早之前做的三国杀自动化游戏脚本](./projects/sanguosha)
+- [yuv模块功能验证 yuv图片的生成以及xml的处理](./projects/yuv_module)

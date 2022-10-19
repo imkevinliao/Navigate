@@ -15,6 +15,7 @@ git status不能显示中文的问题也需要对core进行配置，还需要在
 
 git_lg = """ git config --global alias.lg "log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit" """
 
+
 def git_command():
     cmd = []
     cmd_user = ['git config --global user.name "imkevinliao"', 'git config --global user.email "imkevinliao@gmail.com"']
