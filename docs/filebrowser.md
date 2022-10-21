@@ -142,6 +142,9 @@ filebrowser -c config.json
 # 官方文档的问题
 刚开始接触filebrowser的时候看不懂那些命令，因为尝试执行的时候报错，后面渐渐就明白了，参看添加用户的命令，应该有助于理解官方文档中的命令该怎么写。
 
+<https://filebrowser.org/installation>
+
+<https://filebrowser.org/cli/filebrowser-users-add>
 # 脚本
 有想过把这一系列操作写出bash脚本，拷贝脚本后直接执行就可以完成上述所有操作
 
