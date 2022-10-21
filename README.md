@@ -19,5 +19,5 @@
 # projects
 - [读取bin txt xml内容 并计算 重命名文件](./projects/rename)
 - [将中华文化诗词曲并持久化 Mysql](./projects/poem)
-- [很早之前做的三国杀自动化游戏脚本](./projects/sanguosha)
+- [很早之前做的三国杀自动化游戏脚本](./projects/sanguosha) [挂了很久有一天突然发现有好几个star 现在整理在这里]
 - [yuv模块功能验证 yuv图片的生成以及xml的处理](./projects/yuv_module)
