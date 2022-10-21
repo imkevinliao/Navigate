@@ -8,7 +8,7 @@
 # markdown
 - [一行代码的魅力](./markdown/一行代码.md)
 - [windows10的一些小技巧](./markdown/windows.md)
-- [linux的一些小技巧](./markdown/linux.md) [删除解压的问题问题]
+- [linux的一些小技巧](./markdown/linux.md) [列出人创建的用户 删除解压的问题问题]
 # scripts
 - [Git基础配置脚本](./scripts/git_config.py)
 - [Git自动更新脚本](./scripts/git_update.py)
