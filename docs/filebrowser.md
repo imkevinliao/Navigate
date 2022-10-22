@@ -44,7 +44,7 @@ sudo filebrowser users update [user_name] --password [user_password] -d /etc/fil
 请自己设置用户名密码，举例：
 ```
 sudo filebrowser users add admin 123456 --perm.admin -d /etc/filebrowser.db
-sudo filebrowser users update admin --password 123456 -d /etc/filebrowser.db
+sudo filebrowser users update admin --password 123456 --perm.admin -d /etc/filebrowser.db
 ```
 
 将filebrowser加入到开机启动中
