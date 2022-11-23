@@ -48,6 +48,39 @@ def test():
     logging.warning("warning:log config")
     logging.error("error:log config")
 
+class MyLog(object):
+    """
+    使用方式，复制class到需要用的地方
+    MyLog() or MyLog(log_name = "./out.log")
+    """
 
+    def __init__(self, log_name=None):
+        self.__filename = log_name
+        self.my_init()
+        ...
+
+    @staticmethod
+    def test():
+        logging.debug("hello debug 中文")
+        logging.info("hello info 中文")
+        logging.warning("hello warning 中文")
+        logging.error("hello error 中文")
+
+    def my_init(self):
+        logger = logging.getLogger()
+
+        logger.setLevel(logging.DEBUG)
+        formatter = logging.Formatter(fmt="%(asctime)s %(levelname)s [line:%(lineno)d] %(message)s",
+                                      datefmt="%Y-%m-%d %H:%M:%S(%p)")
+
+        stdout_handler = logging.StreamHandler(sys.stdout)
+        logger.addHandler(stdout_handler)
+        stdout_handler.setFormatter(formatter)
+
+        if self.__filename:
+            file_handler = logging.FileHandler(filename=self.__filename, encoding='utf-8')
+            logger.addHandler(file_handler)
+            file_handler.setFormatter(formatter)
+            
 if __name__ == '__main__':
     test()
