@@ -98,7 +98,7 @@ def page_info(edge):
 
 
 def core(edge):
-    base_url = "https://www.riskbird.com/web/advance/toSearch?code=360800&type=regionid&txt=%E6%B1%9F%E8%A5%BF:%20%E5%90%89%E5%AE%89"
+    base_url = "https://www.riskbird.com/web/advance/toSearch?code=110000&type=regionid&txt=%E5%8C%97%E4%BA%AC"
     edge.get(base_url)
     handle = edge.current_window_handle
     csv_data = []
