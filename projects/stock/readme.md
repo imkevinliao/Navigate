@@ -1,6 +1,26 @@
 # akshare
 必须要指出 akshare 获取数据应该本着互联网爬虫原则，不给网站服务器带来压力，适量请求。稍微大点的网站基本都会做防护，阻止恶意用户请求，以保障网站正常运行服务其他用户。如果使用过程中报错很大概率会是网站对使用者ip进行了封禁，所以请适度请求。
 
+（实时行情数据极其容易被封IP，非常不建议频繁使用） 个人感觉新浪的接口极其容易被封，东财的接口似乎对于 akshare 更宽容一些
+
+通常 api 中带有 spot 的都需要小心使用，这种一般都是整个股市的数据，量比较大，不宜反复请求，最好保存为本地避免重复请求
+
+```python
+import akshare as ak
+import pandas as pd
+
+filepath = r"./stock_info.csv"
+df = ak.stock_zh_a_spot()
+df.to_csv(filepath)
+
+data = pd.read_csv(filepath)
+print(data)
+```
+
+akshare 获取到的数据均为 pandas 数据 dataframe，可以直接使用 to_csv 方法指定文件路径保存
+
+
+
 ```python
 import akshare as ak
 
@@ -46,7 +66,7 @@ df_stock_zh_index_daily_em = ak.stock_zh_index_daily_em(symbol="0003000")
 df_stock_daily = ak.stock_zh_a_daily(symbol="000002", start_date="20230201", end_date="20230202")
 df_stock_daily_em = ak.stock_zh_a_hist_min_em(symbol="000002", start_date="2023-02-01 09:32:00", end_date="2023-02-02 09:32:00", period="5") # 每5min一条数据
 
-# 实时行情数据 （实时行情数据极其容易被封IP，非常不建议频繁使用） 个人感觉新浪的接口极其容易被封，东财的接口似乎要好一些
+# 实时行情数据 
 # ak.stock_zh_index_spot() #指数实时行情
 # ak.stock_zh_a_spot() #股票实时行情
 ```
