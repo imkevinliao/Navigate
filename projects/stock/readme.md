@@ -19,13 +19,10 @@ print(data)
 
 akshare 获取到的数据均为 pandas 数据 dataframe，可以直接使用 to_csv 方法指定文件路径保存
 
+```
+ #akshare 常用的一些 API
 
-
-```python
-import akshare as ak
-
-""" 提供一些重点的 akshare api
- # 指数实时行情和历史行情
+ #指数实时行情和历史行情
  "stock_zh_index_daily"  # 股票指数历史行情数据
  "stock_zh_index_daily_tx"  # 股票指数历史行情数据-腾讯
  "stock_zh_index_daily_em"  # 股票指数历史行情数据-东方财富
@@ -54,7 +51,16 @@ import akshare as ak
  "stock_zh_a_daily"  # 获取 A 股历史行情数据(日频)
  "stock_zh_a_minute"  # 获取 A 股分时历史行情数据(分钟)
  "stock_zh_a_cdr_daily"  # 获取 A 股 CDR 历史行情数据(日频)
-"""
+ 
+ # 个股信息查询
+ "stock_individual_info_em"  # 个股信息查询
+ 
+```
+
+
+
+```python
+import akshare as ak
 
 df_index_info = ak.index_stock_info()  # 获取所有股票指数信息
 
