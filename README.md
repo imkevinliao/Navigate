@@ -13,7 +13,7 @@
 - [很早之前做的三国杀自动化游戏脚本](./projects/sanguosha) [挂了很久有一天突然发现有好几个star 现在整理在这里]
 - [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](./projects/yuv_module)
 - [风鸟 selenium 爬虫](./projects/fengniao)
-- [股票](./projects/stock)
+- [akshare 股票](./projects/stock)
 
 # scripts
 - [Git 基础配置脚本](./scripts/git_config.py)
