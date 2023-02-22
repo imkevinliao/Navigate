@@ -1,7 +1,7 @@
 # imkevinliao
 生命有限，好的代码应该像 BeyondCompare 一样，零学习成本，功能强大。
 
-在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，
+在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
 # markdown 
 - [一行代码](./markdown/一行代码.md)
 - [windows10 小技巧](./markdown/windows.md)
