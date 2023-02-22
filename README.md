@@ -2,7 +2,9 @@
 生命有限，好的代码应该像 BeyondCompare 一样，零学习成本，功能强大。
 
 在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
-# markdown 
+# markdown 文章
+- [filebrowser 部署](./markdown/filebrowser.md)
+- [数据结构 动态规划](./markdown/动态规划_斐波那契数列.md)
 - [一行代码](./markdown/一行代码.md)
 - [windows10 小技巧](./markdown/windows.md)
 - [linux 小技巧](./markdown/linux.md) [列出人创建的用户 删除解压的问题问题]
