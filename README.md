@@ -9,8 +9,8 @@
 
 # projects
 - [读取 bin txt xml 内容 并计算 重命名文件](./projects/rename)
-- [将中华文化诗词曲并持久化 Mysql](./projects/poem)
-- [很早之前做的三国杀自动化游戏脚本](./projects/sanguosha) [挂了很久有一天突然发现有好几个star 现在整理在这里]
+- [中华文化诗词曲持久化 Mysql](./projects/poem)
+- [三国杀游戏自动化脚本](./projects/sanguosha) [挂了很久有一天突然发现有好几个star 现在整理在这里]
 - [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](./projects/yuv_module)
 - [风鸟 selenium 爬虫](./projects/fengniao)
 - [akshare 股票](./projects/stock)
