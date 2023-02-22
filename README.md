@@ -1,9 +1,9 @@
 # imkevinliao
+生命有限，好的代码应该像 BeyondCompare 一样，零学习成本，功能强大。
 
-生命有限，好的代码应该像 BeyondCompare 一样，没有任何学习成本，拿来即用，解放自我，有更多的时间可以学习泡咖啡，做美食，晒太阳，去生活
-
-# markdown
-- [一行代码的魅力](./markdown/一行代码.md)
+在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，
+# markdown 
+- [一行代码](./markdown/一行代码.md)
 - [windows10 小技巧](./markdown/windows.md)
 - [linux 小技巧](./markdown/linux.md) [列出人创建的用户 删除解压的问题问题]
 
