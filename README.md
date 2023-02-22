@@ -10,10 +10,10 @@
 - [linux 小技巧](./markdown/linux.md) [列出人创建的用户 删除解压的问题问题]
 
 # projects
-- [PyQt 浅尝辄止（Pyside6）](./project/pyside6)
+- [PyQt 浅尝辄止（Pyside6）](./projects/pyside6)
 - [读取 bin txt xml 内容 并计算 重命名文件](./projects/rename)
 - [中华文化诗词曲持久化 Mysql](./projects/poem)
-- [三国杀游戏自动化脚本](./projects/sanguosha) [挂了很久有一天突然发现有好几个star 现在整理在这里]
+- [三国杀游戏自动化脚本](./projects/sanguosha) [很早前写的]
 - [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](./projects/yuv_module)
 - [风鸟 selenium 爬虫](./projects/fengniao)
 - [akshare 股票](./projects/stock)
