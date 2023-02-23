@@ -30,5 +30,5 @@
 - [自己封装的实用装饰器](./code/my_wrapper.py)
 - [argparse 用例](./code/argparse.py)
 - [rsa 第三方模块 Crypto 用例](./code/rsa.py)
-
+- [pytest demo](./code/my_pytest.py)
 
