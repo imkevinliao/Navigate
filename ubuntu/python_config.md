@@ -1,5 +1,7 @@
 # 在 Ubuntu 中安装 Python 3.10
 
+补充知识：Linux 中我们使用包管理工具安装软件（apt dnf yum）,这些包管理工具都是有源，我们下载软件时候会从指定网站去查找软件并下载，但是有些时候某些软件我们不能从Linux发行版本的默认源中找到，故而需要添加源，告诉包管理工具从这里面查找 `sudo add-apt-repository ppa:deadsnakes/ppa`
+
 1. sudo add-apt-repository ppa:deadsnakes/ppa
 2. sudo apt update
 3. sudo apt install python3.10
