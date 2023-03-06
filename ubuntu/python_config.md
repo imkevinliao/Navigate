@@ -17,3 +17,12 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 
 选择 python 版本
 
 sudo update-alternatives --config python3
+
+# python 创建虚拟环境
+python3 -m venv venv
+
+报错的话可能是没有 venv 模块，安装一下即可 sudo apt install python3-venv -y
+
+检查一下：python3 -m venv -h
+
+
