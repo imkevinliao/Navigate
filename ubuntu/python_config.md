@@ -44,6 +44,12 @@ Thank you - mistake was not installing python3.10-venv. I had python3-venv insta
 
 sudo apt install python3.10-venv -y
 
+# 配置虚拟环境
+激活虚拟环境 source venv/bin/activate
+
+关闭虚拟环境 deactivate
+
+激活虚拟环境 source 后跟 activate 的绝对或者相对路径
 # pip3 命令找不到
 ```
 错误示例：sudo apt install python3-pip
