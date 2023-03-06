@@ -25,4 +25,7 @@ python3 -m venv venv
 
 检查一下：python3 -m venv -h
 
+# pip3 命令找不到
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+
 
