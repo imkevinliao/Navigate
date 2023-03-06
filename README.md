@@ -2,6 +2,10 @@
 生命有限，好的代码应该像 BeyondCompare 一样，零学习成本，功能强大。
 
 在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
+
+# Ubuntu
+- [Ubuntu 知识点](./ubuntu/)
+
 # markdown 文章
 - [filebrowser 部署](./markdown/filebrowser.md)
 - [数据结构 动态规划](./markdown/动态规划_斐波那契数列.md)
