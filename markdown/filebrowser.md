@@ -21,6 +21,10 @@ sudo filebrowser -d /etc/filebrowser.db config set --port 8080
 将filebrowser添加到守护进程中，随linux服务器自启：（我们不希望每次重启linux后，还要去重新手动启动filebrowser服务）
 ```
 sudo vim /usr/lib/systemd/system/filebrowser.service
+
+如果上面的路径不存在则选择下面的
+
+sudo vim /etc/systemd/system/filebrowser.service
 ```
 
 编写service文件，复制以下内容，简要说明ExecStart=/usr/local/bin/filebrowser -d /etc/filebrowser.db，这个根据你filebrowser的实际位置填写，就是之前提到的要注意。（另自行查找vim的基本使用，通常复制好下面的文本后按p即可复制，然后:wq退出vim即可，vim不展开说了，cat进去也是可以的）
