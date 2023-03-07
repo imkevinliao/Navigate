@@ -31,4 +31,6 @@ cn 直接登录
 
 启用密钥验证：PubkeyAuthentication yes
 
+禁止空密码：PermitEmptyPasswords no
+
 修改配置后重启服务（使生效）：sudo systemctl restart sshd
