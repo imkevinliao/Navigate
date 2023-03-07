@@ -34,3 +34,11 @@ cn 直接登录
 禁止空密码：PermitEmptyPasswords no
 
 修改配置后重启服务（使生效）：sudo systemctl restart sshd
+
+# ssh 免密登录失败
+
+https://blog.csdn.net/moakun/article/details/104095404
+
+1. 检查服务器用户目录，例如用户为kevin，/home/kevin  目录权限必须是：755
+2. 检查服务器用户目录下的.ssh目录，/home/kevin/.ssh 目录权限必须是：700
+3. 检查authorized_keys文件权限，必须是600或者644，该文件位于/home/kevin/.ssh/authorized_keys
