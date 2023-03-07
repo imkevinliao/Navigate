@@ -18,7 +18,8 @@ cn 直接登录
 退出 ssh 登录状态 logout 命令
 
 # ssh 配置
-<sshd_config 参考>[https://developer.aliyun.com/article/972993]
+[sshd_config 参考](https://developer.aliyun.com/article/972993)
+
 
 文件路径： /etc/ssh/sshd_config
 
