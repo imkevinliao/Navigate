@@ -44,6 +44,12 @@ Thank you - mistake was not installing python3.10-venv. I had python3-venv insta
 
 sudo apt install python3.10-venv -y
 
+# 使用软链接（快捷方式）
+```
+sudo ln -s /usr/bin/python3 /usr/bin/py3
+
+sudo ln -s /usr/bin/python2 /usr/bin/py2
+```
 # 配置虚拟环境
 激活虚拟环境 source venv/bin/activate
 
