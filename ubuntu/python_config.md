@@ -50,9 +50,9 @@ sudo ln -s /usr/bin/python3 /usr/bin/py3
 
 sudo ln -s /usr/bin/python2 /usr/bin/py2
 
-删除软链接（注意，这里不是 rm -rf /usr/bin/py3/)
-rm -rf /usr/bin/py2
-rm -rf /usr/bin/py3
+删除软链接（注意，这里不是 sudo rm -rf /usr/bin/py3/)
+sudo rm -rf /usr/bin/py2
+sudo rm -rf /usr/bin/py3
 ```
 # 配置虚拟环境
 激活虚拟环境 source venv/bin/activate
