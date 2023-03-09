@@ -29,8 +29,7 @@
 # code
 - [xlwings 处理 excel](./code/xlwings)
 - [移动文件 处理 raw 图](./code/move_files)
-- [python logging 模块配置](./code/logging_module.py)
-- [自己封装的 logging 模块](./code/my_logging.py)
+- [logging 模块详解](./code/my_logging.py)
 - [Python 装饰器](./code/my_wrapper.py)[函数参数检查 函数提示 函数延迟 函数运行时间计算]
 - [argparse 用例](./code/argparse.py)
 - [rsa 第三方模块 Crypto 用例](./code/rsa.py)
