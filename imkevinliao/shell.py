@@ -6,23 +6,22 @@ from util import decode
 
 class Shell:
     """
-    对于 subprocess：run popen call 的封装
-    run 单个命令安全运行（逐个进行）无法实时查看控制台输出，只能在执行结束后查看
-    popen 单个命令运行过程还需要查看控制台输出popen，多线程执行程序（可以但是不推荐）
-    call 无需知道命令执行后的输出，仅仅判断命令是否执行正常（最安全）
+    run，popen，popen_multi
+    这三个函数返回 list[tuple(command,command_result)]；无论命令是否执行成功，都返回该命令以及该命令执行的结果
     
-    安全程度 call（最安全）  popen（最不安全）
-    尽可能用 run 和 call 确保安全
+    call 只返回执行后的状态码: 0 表示成功执行，其他值则表示失败
+    
+    popen popen_multi 会在控制台实时显示结果
+    run 不在控制台显示结果
     """
     
     def __init__(self, cmds: list = None):
         self.__LINUX_EXECUTE_OK = 0
-        self.__LINUX_EXECUTE_FAILED = -1
         self.__commands = cmds
         if self.__commands:
             self.__check_commands(self.__commands)
     
-    def set_commands(self, commands):
+    def set_commands(self, commands: list):
         self.__check_commands(commands)
         self.__commands = commands
     
@@ -38,15 +37,9 @@ class Shell:
         for cmd in self.__commands:
             ret = subprocess.call(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                   stderr=subprocess.PIPE)
-            if self.__LINUX_EXECUTE_OK == ret:
-                return self.__LINUX_EXECUTE_OK
-            else:
-                return self.__LINUX_EXECUTE_FAILED
+            return ret
     
     def run(self) -> list:
-        """
-        返回 list[tuple(command,command_result)]
-        """
         run_results = []
         for cmd in self.__commands:
             completed = subprocess.run(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
@@ -79,7 +72,6 @@ class Shell:
         return result
     
     def popen_multi(self, max_threads=10):
-        # 返回 list[tuple(command,command_result)]
         results = []
         pool = ThreadPoolExecutor(max_workers=max_threads)
         tasks = self.__commands
@@ -90,7 +82,6 @@ class Shell:
         return results
     
     def popen(self):
-        # 返回 list[tuple(command,command_result)]
         results = []
         for cmd in self.__commands:
             result = self.__popen_core(cmd)
