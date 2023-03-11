@@ -13,6 +13,7 @@ class Shell:
     
     popen popen_multi 会在控制台实时显示结果
     run 不在控制台显示结果
+    事实上在Python3.5以后，官方只推荐run
     """
     
     def __init__(self, cmds: list = None):
