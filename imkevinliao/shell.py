@@ -1,4 +1,5 @@
 import subprocess
+import warnings
 from concurrent.futures import ThreadPoolExecutor
 
 from util import decode
@@ -6,18 +7,13 @@ from util import decode
 
 class Shell:
     """
-    run，popen，popen_multi
-    这三个函数返回 list[tuple(command,command_result)]；无论命令是否执行成功，都返回该命令以及该命令执行的结果
-    
-    call 只返回执行后的状态码: 0 表示成功执行，其他值则表示失败
-    
-    popen popen_multi 会在控制台实时显示结果
-    run 不在控制台显示结果
-    事实上在Python3.5以后，官方只推荐run
+    run, popen, popen_multi
+    返回值都是list[tuple[int, str]] 即：执行状态码 和 执行结果
+    注：状态码为 0 表示成功，其他表示失败
     """
     
     def __init__(self, cmds: list = None):
-        self.__LINUX_EXECUTE_OK = 0
+        self.__ExecutionStatus = None  # True or False
         self.__commands = cmds
         if self.__commands:
             self.__check_commands(self.__commands)
@@ -35,42 +31,47 @@ class Shell:
                 raise Exception("Command must be string, please check your commands")
     
     def call(self):
+        warnings.warn("该方法被废弃，请使用run", DeprecationWarning)
         for cmd in self.__commands:
-            ret = subprocess.call(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
-                                  stderr=subprocess.PIPE)
+            completed = subprocess.run(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                       stderr=subprocess.PIPE)
+            ret = completed.returncode
             return ret
     
-    def run(self) -> list:
+    @staticmethod
+    def __msg(status_code, msg_cmd, msg_result) -> str:
+        if status_code == 0:
+            status = "True"
+        else:
+            status = "False"
+        cmd_info = f"execute command:{msg_cmd}\nexecute status:{status}\n"
+        cmd_result = f"execute result:\n {msg_result}"
+        result = cmd_info + cmd_result
+        return result
+    
+    def run(self) -> list[tuple[int, str]]:
         run_results = []
         for cmd in self.__commands:
             completed = subprocess.run(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                        stderr=subprocess.PIPE)
-            if self.__LINUX_EXECUTE_OK == completed.returncode:
-                result = decode(completed.stdout)
-                run_results.append((cmd, result))
-            else:
-                result = decode(completed.stderr)
-                error_msg = "Executing Failed, Status Code: " + str(completed.returncode) + "error_info: " + result
-                run_results.append((cmd, error_msg))
+            ret = completed.returncode
+            result = self.__msg(ret, cmd, decode(completed.stdout))
+            run_results.append((ret, result))
         return run_results
     
-    @staticmethod
-    def __popen_core(task):
+    def __popen_core(self, task):
         process = subprocess.Popen(task, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
         
         for info in iter(process.stdout.readline()):
             print(info)
-        output, err = process.communicate()
-        if err:
-            error_info = decode(process.stderr)
-            error_msg = "Executing Failed, Status Code: " + str(process.returncode) + "error_info: " + error_info
-            result = (task, error_msg)
-        else:
-            task_info = decode(process.stdout)
-            result = (task, task_info)
+        stdout, stderr = process.communicate()
+        print(stderr)
+        ret = process.returncode
+        result = self.__msg(ret, task, decode(process.stdout))
+        run_result = (task, result)
         process.kill()
-        return result
+        return run_result
     
     def popen_multi(self, max_threads=10):
         results = []
@@ -83,8 +84,8 @@ class Shell:
         return results
     
     def popen(self):
-        results = []
+        run_results = []
         for cmd in self.__commands:
             result = self.__popen_core(cmd)
-            results.append(result)
-        return results
+            run_results.append(result)
+        return run_results
