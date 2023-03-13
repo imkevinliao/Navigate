@@ -5,6 +5,7 @@ from shell import Shell
 
 
 def config_python(py_inst: Shell):
+    py_inst.enable_record()
     # 配置python源
     commands_python = ["sudo add-apt-repository ppa:deadsnakes/ppa", "sudo apt update",
                        "sudo apt install python3.10 -y"]
@@ -29,7 +30,10 @@ def config_python(py_inst: Shell):
     else:
         log.info(f"没有获取到系统当前的python3版本")
     py_inst.set_commands(commands_python)
-    py_inst.run()
+    py_inst.popen()
+    with open("log.log", "a+") as f:
+        for i in py_inst.records:
+            f.write(i[1])
 
 
 if __name__ == '__main__':

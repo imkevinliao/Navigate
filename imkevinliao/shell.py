@@ -15,8 +15,16 @@ class Shell:
     def __init__(self, cmds: list = None):
         self.__ExecutionStatus = None  # True or False
         self.__commands = cmds
+        self.__record = False
+        self.records = []
         if self.__commands:
             self.__check_commands(self.__commands)
+    
+    def enable_record(self):
+        self.__record = True
+    
+    def close_record(self):
+        self.records = []
     
     def set_commands(self, commands: list):
         self.__check_commands(commands)
@@ -45,7 +53,7 @@ class Shell:
         else:
             status = "False"
         cmd_info = f"execute command:{msg_cmd}\nexecute status:{status}\n"
-        cmd_result = f"execute result:\n {msg_result}"
+        cmd_result = f"execute result:\n {msg_result}\n"
         result = cmd_info + cmd_result
         return result
     
@@ -57,6 +65,8 @@ class Shell:
             ret = completed.returncode
             result = self.__msg(ret, cmd, decode(completed.stdout))
             run_results.append((ret, result))
+        if self.__record:
+            self.records.extend(run_results)
         return run_results
     
     def __popen_core(self, task):
@@ -66,9 +76,12 @@ class Shell:
         for info in iter(process.stdout.readline()):
             print(info)
         stdout, stderr = process.communicate()
-        print(stderr)
+        print(decode(stderr))
         ret = process.returncode
-        result = self.__msg(ret, task, decode(process.stdout))
+        if ret == 0:
+            result = self.__msg(ret, task, decode(stdout))
+        else:
+            result = self.__msg(ret, task, decode(stderr))
         run_result = (task, result)
         process.kill()
         return run_result
@@ -81,6 +94,8 @@ class Shell:
             result = pool.submit(self.__popen_core, task)
             results.append(result)
         pool.shutdown()
+        if self.__record:
+            self.records.extend(results)
         return results
     
     def popen(self):
@@ -88,4 +103,6 @@ class Shell:
         for cmd in self.__commands:
             result = self.__popen_core(cmd)
             run_results.append(result)
+        if self.__record:
+            self.records.extend(run_results)
         return run_results
