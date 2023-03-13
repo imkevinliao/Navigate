@@ -111,7 +111,7 @@ sudo rm -rf /usr/bin/py3
 激活虚拟环境 source 后跟 activate 的绝对或者相对路径
 # pip3 命令找不到
 ```
-错误示例：sudo apt install python3-pip
+示例(可能存在错误)：sudo apt install python3-pip
 
 python3-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.8)
 ```
