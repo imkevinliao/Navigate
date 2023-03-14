@@ -3,8 +3,6 @@
 
 在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
 
-# Ubuntu
-- [Ubuntu 知识点](./ubuntu/)
 
 # markdown 文章
 - [filebrowser 部署](./markdown/filebrowser.md)
