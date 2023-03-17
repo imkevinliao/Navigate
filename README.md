@@ -3,6 +3,13 @@
 
 在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
 
+# Projects
+- Python Personal Moudle <https://github.com/imkevinliao/PyMagic>
+- Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu>
+- Personal WebSite <https://github.com/imkevinliao/imkevinliao.github.io>
+- Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs>
+
+
 # projects
 - [PyQt 浅尝辄止（Pyside6）](./projects/pyside6)
 - [读取 bin txt xml 内容 并计算 重命名文件](./projects/rename)
@@ -11,7 +18,6 @@
 - [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](./projects/yuv_module)
 - [风鸟 selenium 爬虫](./projects/fengniao)
 - [akshare 股票](./projects/stock)
-
 
 # code
 - [xlwings 处理 excel](./code/xlwings)
