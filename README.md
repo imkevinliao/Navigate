@@ -9,7 +9,7 @@
 - Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu>
 - Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs>
 
-# Recommended
+# Recommendation
 - <https://github.com/filebrowser/filebrowser>
 
 # old_projects
