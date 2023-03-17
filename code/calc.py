@@ -4,6 +4,9 @@ YEAR2DAY = 365
 
 
 def calc(capital=None, year_rate=None, day_rate=None, year_gain=None, day_gain=None):
+    """
+    给定本金，利率，收益，三者任意其二，计算其他参数值
+    """
     def recalculate(year, day, max_error_range=0.1):
         if year == 0 or day == 0:
             raise Exception("0 is not allowed.")
