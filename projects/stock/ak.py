@@ -7,6 +7,9 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
+class ErrorInfo(Exception): ...
+
+
 class AnalyzeStock:
     def __init__(self, csvfile, stock_name=""):
         self.csvfile = csvfile
@@ -71,7 +74,7 @@ class DownloadStock:
     
     def __check_save_fold(self):
         if not self.__save_fold:
-            raise Exception("Download fold path must be given")
+            raise ErrorInfo("Download fold path must be given")
     
     def __check_stock_code(self):
         if isinstance(self.__stock_code, int):
@@ -83,7 +86,7 @@ class DownloadStock:
         elif isinstance(self.__stock_code, list):
             pass
         else:
-            raise Exception("stock_code error!")
+            raise ErrorInfo("stock_code error!")
     
     def __pretreatment(self):
         if self.__stock_code:
