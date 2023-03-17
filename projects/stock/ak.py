@@ -2,6 +2,7 @@ import datetime
 import os
 import re
 
+import akshare as ak
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -61,4 +62,60 @@ class AnalyzeStock:
             plt.show()
 
 
-
+class DownloadStock:
+    def __init__(self, code: list = None, fold: str = None):
+        self.__stock_code = code
+        self.__save_fold = fold
+        self.__pretreatment()
+        ...
+    
+    def __check_save_fold(self):
+        if not self.__save_fold:
+            raise Exception("Download fold path must be given")
+    
+    def __check_stock_code(self):
+        if isinstance(self.__stock_code, int):
+            self.__stock_code = list[str(self.__stock_code)]
+        elif isinstance(self.__stock_code, str):
+            self.__stock_code = list[self.__stock_code]
+        elif isinstance(self.__stock_code, tuple):
+            self.__stock_code = list(self.__stock_code)
+        elif isinstance(self.__stock_code, list):
+            pass
+        else:
+            raise Exception("stock_code error!")
+    
+    def __pretreatment(self):
+        if self.__stock_code:
+            self.__check_stock_code()
+        self.__check_save_fold()
+        if not os.path.exists(self.__save_fold):
+            os.mkdir(self.__save_fold)
+        ...
+    
+    def reset_stock_code(self, value):
+        self.__stock_code = value
+        self.__check_stock_code()
+    
+    def download_basic_info(self):
+        # 个股成分信息 个股信息查询
+        # data = ak.index_stock_hist()
+        # data = ak.stock_individual_info_em()
+        
+        data = ak.index_stock_info()
+        filepath = os.path.join(self.__save_fold, "index_info.csv")
+        data.to_csv(filepath)
+    
+    def download(self, time_range=("19700101", "22220101")):
+        for stock in self.__stock_code:
+            # 获取某个指数，例如 沪深300 指数的历史行情数据（新浪和东财）
+            date = ak.stock_zh_index_daily(symbol=stock)
+            data = ak.stock_zh_index_daily_em(symbol=stock)
+            data = ak.stock_zh_index_daily_tx(symbol=stock)
+            # 股票历史数据
+            data = ak.stock_zh_a_hist(symbol=stock, start_date=time_range[0], end_date=time_range[1])
+            data = ak.stock_zh_a_daily(symbol=stock, start_date=time_range[0], end_date=time_range[1])
+            
+            fullname = f"{stock}.csv"
+            filepath = os.path.join(self.__save_fold, fullname)
+            date.to_csv(filepath)
