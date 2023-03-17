@@ -9,8 +9,10 @@
 - Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu>
 - Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs>
 
+# Recommended
+- <https://github.com/filebrowser/filebrowser>
 
-# projects
+# old_projects
 - [PyQt 浅尝辄止（Pyside6）](./projects/pyside6)
 - [读取 bin txt xml 内容 并计算 重命名文件](./projects/rename)
 - [中华文化诗词曲持久化 Mysql](./projects/poem)
@@ -19,7 +21,7 @@
 - [风鸟 selenium 爬虫](./projects/fengniao)
 - [akshare 股票](./projects/stock)
 
-# code
+# old_code
 - [xlwings 处理 excel](./code/xlwings)
 - [移动文件 处理 raw 图](./code/move_files)
 - [logging 模块详解](./code/my_logging.py)
