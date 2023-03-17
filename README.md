@@ -5,7 +5,7 @@
 
 # Projects
 - Personal WebSite <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
-- Python Personal Moudle <https://github.com/imkevinliao/PyMagic> [个人模块]
+- Python Personal Module <https://github.com/imkevinliao/PyMagic> [个人模块]
 - Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu> [Why Shell, Why not Python?]
 - Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs> [深入了解 Ubuntu]
 
