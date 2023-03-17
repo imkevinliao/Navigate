@@ -1,3 +1,6 @@
+import collections
+import functools
+import inspect
 from decimal import getcontext, Decimal
 
 YEAR2DAY = 365
@@ -10,7 +13,7 @@ def calc(capital=None, year_rate=None, day_rate=None, year_gain=None, day_gain=N
     def recalculate(year, day, max_error_range=0.1):
         if year == 0 or day == 0:
             raise Exception("0 is not allowed.")
-        getcontext().prec = 4
+        getcontext().prec = 10
         new_day = Decimal(year) / YEAR2DAY
         year_offsets = abs((float(new_day) - day) / day)
         new_year = Decimal(day) * YEAR2DAY
@@ -66,9 +69,9 @@ def calc(capital=None, year_rate=None, day_rate=None, year_gain=None, day_gain=N
             year_rate = year_gain / capital
             day_rate = year_rate / YEAR2DAY
         print(f"计算的结果：")
-    print(f"本金：{capital:0.06f}")
-    print(f"年利率：{year_rate:0.06f}，日利率：{day_rate:0.06f}")
-    print(f"年收益：{year_gain:0.06f}，日收益：{day_gain:0.06f}")
+    print(f"本金：{capital:0.04f}")
+    print(f"年利率：{year_rate:0.06f}，日利率：{day_rate:0.08f}")
+    print(f"年收益：{year_gain:0.02f}，日收益：{day_gain:0.04f}")
 
 
 def user_input():
@@ -78,10 +81,11 @@ def user_input():
     d_r = input(f"请输入年利率或日利率[以小数表示](回车跳过)：\n日利率：")
     y_g = input(f"请输入年收益或日收益[单位元](回车跳过)：\n年收益：")
     d_g = input(f"请输入年利率或日利率[单位元](回车跳过)：\n日收益：")
+    # check_input()
     return c, y_r, d_r, y_g, d_g
 
 
 if __name__ == '__main__':
-    result = (16000, 0.02, 0.000055, None, None)
-    calc(capital=result[0], year_rate=result[1], day_rate=result[2], year_gain=result[3], day_gain=result[4])
+    in_data = (10000, 0.020075, None, None, None)
+    calc(capital=in_data[0], year_rate=in_data[1], day_rate=in_data[2], year_gain=in_data[3], day_gain=in_data[4])
     ...
