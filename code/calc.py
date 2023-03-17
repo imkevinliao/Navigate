@@ -5,15 +5,15 @@ YEAR2DAY = 365
 
 def calc(capital=None, year_rate=None, day_rate=None, year_gain=None, day_gain=None):
     def recalculate(year, day, max_error_range=0.1):
+        if year == 0 or day == 0:
+            raise Exception("0 is not allowed.")
         getcontext().prec = 4
-        if year:
-            new_day = Decimal(year) / YEAR2DAY
-        elif day:
-            new_year = Decimal(day) * YEAR2DAY
-        year_offsets = (new_year - year) / year
-        day_offsets = (new_day - day) / day
-        if max(year_offsets, day_offsets) > max_error_range:
-            return Exception(f"给定的 {year} 和 {day} 数值关系不匹配,若无法确保两者一致，请只给一个")
+        new_day = Decimal(year) / YEAR2DAY
+        year_offsets = abs((float(new_day) - day) / day)
+        new_year = Decimal(day) * YEAR2DAY
+        day_offsets = abs((float(new_year) - year) / year)
+        if min(year_offsets, day_offsets) > max_error_range:
+            raise Exception(f"给定的 {year} 和 {day} 数值关系不匹配,若无法确保两者一致，请只给一个")
         else:
             if year_offsets > day_offsets:
                 day = year / YEAR2DAY
@@ -79,6 +79,6 @@ def user_input():
 
 
 if __name__ == '__main__':
-    result = (16000, 0.02, None, None, None)
+    result = (16000, 0.02, 0.000055, None, None)
     calc(capital=result[0], year_rate=result[1], day_rate=result[2], year_gain=result[3], day_gain=result[4])
     ...
