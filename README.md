@@ -13,20 +13,20 @@
 - <https://github.com/filebrowser/filebrowser>
 
 # old_projects
-- [PyQt 浅尝辄止（Pyside6）](./projects/pyside6)
-- [读取 bin txt xml 内容 并计算 重命名文件](./projects/rename)
-- [中华文化诗词曲持久化 Mysql](./projects/poem)
-- [三国杀游戏自动化脚本](./projects/sanguosha) [很早前写的]
-- [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](./projects/yuv_module)
-- [风鸟 selenium 爬虫](./projects/fengniao)
-- [akshare 股票](./projects/stock)
+- [PyQt 浅尝辄止（Pyside6）](../magic/projects/pyside6)
+- [读取 bin txt xml 内容 并计算 重命名文件](../magic/projects/rename)
+- [中华文化诗词曲持久化 Mysql](../magic/projects/poem)
+- [三国杀游戏自动化脚本](../magic/projects/sanguosha) [很早前写的]
+- [yuv 模块功能验证 yuv 图片的生成以及 xml 的处理](../magic/projects/yuv_module)
+- [风鸟 selenium 爬虫](../magic/projects/fengniao)
+- [akshare 股票](../magic/projects/stock)
 
 # old_code
-- [xlwings 处理 excel](./code/xlwings)
-- [移动文件 处理 raw 图](./code/move_files)
-- [logging 模块详解](./code/my_logging.py)
-- [Python 装饰器](./code/my_wrapper.py)[函数参数检查 函数提示 函数延迟 函数运行时间计算]
-- [argparse 用例](./code/argparse.py)
-- [rsa 第三方模块 Crypto 用例](./code/rsa.py)
-- [pytest demo](./code/my_pytest.py)
+- [xlwings 处理 excel](../magic/code/xlwings)
+- [移动文件 处理 raw 图](../magic/code/move_files)
+- [logging 模块详解](../magic/code/my_logging.py)
+- [Python 装饰器](../magic/code/my_wrapper.py)[函数参数检查 函数提示 函数延迟 函数运行时间计算]
+- [argparse 用例](../magic/code/argparse.py)
+- [rsa 第三方模块 Crypto 用例](../magic/code/rsa.py)
+- [pytest demo](../magic/code/my_pytest.py)
 
