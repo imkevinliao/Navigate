@@ -12,9 +12,6 @@
 - [风鸟 selenium 爬虫](./projects/fengniao)
 - [akshare 股票](./projects/stock)
 
-# scripts
-- [Git 基础配置脚本](./scripts/git_config.py)
-- [Git 自动更新脚本](./scripts/git_update.py)
 
 # code
 - [xlwings 处理 excel](./code/xlwings)
