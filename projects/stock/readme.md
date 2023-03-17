@@ -76,3 +76,26 @@ df_stock_daily_em = ak.stock_zh_a_hist_min_em(symbol="000002", start_date="2023-
 # ak.stock_zh_index_spot() #指数实时行情
 # ak.stock_zh_a_spot() #股票实时行情
 ```
+
+参考代码：
+```
+# zz1000_pe_df = ak.stock_a_pe(symbol="000852.XSHG").iloc[-1708:]
+# zz1000_pe_pct = zz1000_pe_df[['middlePETTM','close']].rank(ascending=True, pct=True)*100
+# res = ak.stock_zh_a_spot()
+# res = ak.stock_info_a_code_name() # 所有a股代码和名称
+# res = ak.stock_zh_a_daily(symbol="000002", start_date="20221212", end_date="21000000") # 某一股票历史数据
+
+# res = ak.stock_zh_a_hist(symbol="000002", start_date="20230101")  # 某一股票历史数据
+
+# res = ak.index_zh_a_hist(symbol="000300", start_date="20230101")
+# ak.stock_zh_index_daily()
+# res = ak.stock_zh_index_spot()
+
+    # stock_index = ak.stock_zh_index_spot()
+    # stock_index_file = "A股指数_" + today + ".csv"
+    # save(stock_index, _file=stock_index_file, root_path=base_path)
+    #
+    # hs300 = ak.index_zh_a_hist(symbol="000300")
+    # hs300_file = "沪深300_" + today + ".csv"
+    # save(hs300, _file=hs300_file, root_path=base_path)
+```
