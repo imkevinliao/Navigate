@@ -8,6 +8,7 @@
 - Python Personal Module <https://github.com/imkevinliao/PyMagic> [个人模块]
 - Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu> [Why Shell, Why not Python?]
 - Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs> [深入了解 Ubuntu]
+- Stock Analyse <https://github.com/imkevinliao/stock>
 
 # Recommendation
 - <https://github.com/filebrowser/filebrowser>
