@@ -4,10 +4,10 @@
 在不敲代码的日子里，可以出门晒晒太阳，吹吹海风，感受时光的流逝
 
 # Projects
-- Personal WebSite <https://github.com/imkevinliao/imkevinliao.github.io>[个人网站]
-- Python Personal Moudle <https://github.com/imkevinliao/PyMagic>
-- Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu>
-- Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs>
+- Personal WebSite <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
+- Python Personal Moudle <https://github.com/imkevinliao/PyMagic> [个人模块]
+- Python Linux Shell <https://github.com/imkevinliao/Python-Shell-For-Ubuntu> [Why Shell, Why not Python?]
+- Ubuntu Docs <https://github.com/imkevinliao/Ubuntu-Docs> [深入了解 Ubuntu]
 
 # Recommendation
 - <https://github.com/filebrowser/filebrowser>
