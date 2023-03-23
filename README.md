@@ -12,3 +12,4 @@
 
 # Recommendation
 - <https://github.com/filebrowser/filebrowser>
+- <https://github.com/v2ray/v2ray-core>
