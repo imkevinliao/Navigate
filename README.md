@@ -11,7 +11,7 @@
 - Stock Analyse <https://github.com/imkevinliao/stock> [股票]
 
 # Recommendation
-- <https://github.com/filebrowser/filebrowser>
-- <https://github.com/v2ray/v2ray-core>
-- <https://github.com/welliamcao/OpsManage> [Django Project Instances]
+- <https://github.com/filebrowser/filebrowser> [轻量级文件管理器(可以用作网盘)]
+- <https://github.com/v2ray/v2ray-core> [科学上网工具]
+- <https://github.com/welliamcao/OpsManage> [Django 项目实例]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
