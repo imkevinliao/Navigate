@@ -1,4 +1,4 @@
-# imkevinliao
+# MagicX
 生命有限，好的代码应该像 BeyondCompare
 
 生命有限，在不敲代码的日子里，可以晒太阳，吹海风，听蝉鸣，感受时光流逝
