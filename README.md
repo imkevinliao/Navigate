@@ -18,6 +18,7 @@
 - <https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh> [flask 入门级教程]
 - <https://github.com/cburmeister/flask-bones> [flask website demo]
 - <https://github.com/anfederico/flaskex> [flask website demo]
+- <https://github.com/flaskbb/flaskbb/tree/master/flaskbb> [flask forums website demo>
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/cockpit-project/cockpit> [基于WEB的服务器界面(网页管理服务器)]
 - <https://github.com/Snipaste/feedback> [截图工具-灰常好用]
