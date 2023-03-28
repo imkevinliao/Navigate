@@ -16,6 +16,7 @@
 - <https://github.com/txthinking/brook> [科学上网工具-为开发者]
 - <https://github.com/welliamcao/OpsManage> [django 项目实例]
 - <https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh> [flask 入门级教程]
+- <https://github.com/codefresh-contrib/python-flask-sample-app> [flask 官方教程示例代码]
 - <https://github.com/cburmeister/flask-bones> [flask website demo]
 - <https://github.com/anfederico/flaskex> [flask website demo]
 - <https://github.com/flaskbb/flaskbb/tree/master/flaskbb> [flask forums website demo]
