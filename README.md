@@ -13,6 +13,7 @@
 # Recommendation
 - <https://github.com/filebrowser/filebrowser> [轻量级文件管理器(可以用作网盘)]
 - <https://github.com/v2ray/v2ray-core> [科学上网工具]
+- <https://github.com/txthinking/brook> [科学上网工具-为开发者]
 - <https://github.com/welliamcao/OpsManage> [django 项目实例]
 - <https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh> [flask 入门级教程]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
