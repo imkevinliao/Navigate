@@ -19,6 +19,7 @@
 - <https://github.com/codefresh-contrib/python-flask-sample-app> [flask 官方教程示例代码]
 - <https://github.com/cburmeister/flask-bones> [flask website demo]
 - <https://github.com/anfederico/flaskex> [flask website demo]
+- <https://github.com/uwidcit/flaskmvc> [flask MVC]
 - <https://github.com/flaskbb/flaskbb/tree/master/flaskbb> [flask forums website demo]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/cockpit-project/cockpit> [基于WEB的服务器界面(网页管理服务器)]
