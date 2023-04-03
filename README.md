@@ -16,6 +16,7 @@
 - <https://github.com/XTLS/Xray-core> [科学上网工具 源于v2ray的改良版]
 - <https://github.com/txthinking/brook> [科学上网工具-为开发者]
 - <https://github.com/welliamcao/OpsManage> [django 项目实例]
+- <https://github.com/HuQi2018/BiSheServer> [django 项目示例]
 - <https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh> [flask 入门教程]
 - <https://github.com/helloflask/flask-tutorial/> [flask 入门教程]
 - <https://github.com/codefresh-contrib/python-flask-sample-app> [flask 官方教程示例代码]
