@@ -26,3 +26,4 @@
 - <https://github.com/cockpit-project/cockpit> [基于WEB的服务器界面(网页管理服务器)]
 - <https://github.com/Snipaste/feedback> [截图工具-灰常好用]
 - <https://github.com/zhongyang219/TrafficMonitor> [内存网速实时查看工具]
+- <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
