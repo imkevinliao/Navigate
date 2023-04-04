@@ -9,6 +9,7 @@
 - <https://github.com/imkevinliao/Python-Shell-For-Ubuntu> [Python Linux Shell ]
 - <https://github.com/imkevinliao/Ubuntu-Docs> [深入了解 Ubuntu]
 - <https://github.com/imkevinliao/stock> [股票]
+- <https://github.com/imkevinliao/flask-future> [flask]
 
 # Recommendation
 - <https://github.com/filebrowser/filebrowser> [轻量级文件管理器(可以用作网盘)]
