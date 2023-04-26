@@ -1,6 +1,6 @@
 # V2ray 两大分支
-- https://github.com/v2fly/v2ray-core
-- https://github.com/XTLS/Xray-core
+- https://github.com/v2fly/v2ray-core [社区版]
+- https://github.com/XTLS/Xray-core [因争议而出的改良版]
 
 # V2ray 脚本
 - https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了一些特殊网站]
