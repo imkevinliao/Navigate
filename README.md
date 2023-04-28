@@ -5,7 +5,7 @@
 
 chatgpt-3.5:https://chatbot.theb.ai/
 
-获取Github文件源(./index.html)
+[获取Github文件源](./index.html)
 
 # PersonalProject[Pied Piper]
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
