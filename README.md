@@ -28,3 +28,4 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://mobaxterm.mobatek.net/> [终端 Terminal]
 - <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
+- <https://jianwai.youdao.com/index/0> [网易见外 视频剪辑]
