@@ -15,3 +15,6 @@
 
 # V2ray 社区官网
 https://www.v2fly.org/
+
+# 其他
+- <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
