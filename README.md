@@ -6,11 +6,10 @@
 chatgpt-3.5:https://chatbot.theb.ai/
 
 # PersonalProject[Pied Piper]
-- <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
-- <https://github.com/imkevinliao/PyMagic> [个人模块]
-- <https://github.com/imkevinliao/Python-Shell-For-Ubuntu> [Python Linux Shell ]
-- <https://github.com/imkevinliao/Ubuntu-Docs> [深入了解 Ubuntu]
-- <https://github.com/imkevinliao/stock> [股票]
+- <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
+- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu + Python]
+- <https://github.com/imkevinliao/PyMagic> [Personal Module]
+- <https://github.com/imkevinliao/stock> [Stock]
 - <https://github.com/imkevinliao/flask-future> [flask]
 
 # Recommendation
