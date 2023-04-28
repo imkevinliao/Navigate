@@ -22,9 +22,9 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
 
 # Tools
-- <https://github.com/Snipaste/feedback> [截图工具]
+- <https://github.com/Snipaste/feedback> [截图]
 - <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
-- <https://www.faststone.org/> [看图工具]
-- <https://mobaxterm.mobatek.net/> [终端工具]
+- <https://www.faststone.org/> [看图]
+- <https://mobaxterm.mobatek.net/> [终端 Terminal]
 - <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
