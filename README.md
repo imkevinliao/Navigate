@@ -15,17 +15,9 @@ chatgpt-3.5:https://chatbot.theb.ai/
 
 # Recommendation
 - [V2ray 合集](./markdown/v2ray.md)
+- [Flask and Django](./markdown/website.md)
 - <https://github.com/filebrowser/filebrowser> [轻量级文件管理器(可以用作网盘)]
 - <https://github.com/txthinking/brook> [科学上网工具-为开发者]
-- <https://github.com/welliamcao/OpsManage> [django 项目实例]
-- <https://github.com/HuQi2018/BiSheServer> [django 项目示例]
-- <https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh> [flask 入门教程]
-- <https://github.com/helloflask/flask-tutorial/> [flask 入门教程]
-- <https://github.com/codefresh-contrib/python-flask-sample-app> [flask 官方教程示例代码]
-- <https://github.com/cburmeister/flask-bones> [flask website demo]
-- <https://github.com/anfederico/flaskex> [flask website demo]
-- <https://github.com/uwidcit/flaskmvc> [flask MVC]
-- <https://github.com/flaskbb/flaskbb/tree/master/flaskbb> [flask forums website demo]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/cockpit-project/cockpit> [基于WEB的服务器界面(网页管理服务器)]
 - <https://github.com/Snipaste/feedback> [截图工具-灰常好用]
