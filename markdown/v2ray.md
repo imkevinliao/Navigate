@@ -5,6 +5,7 @@
 # V2ray 脚本
 - https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了一些特殊网站]
 - https://github.com/Jrohy/multi-v2ray [不要切换Python系统版本]
+- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
 
 # V2ray 客户端
 - https://github.com/2dust/v2rayN [Windows]
