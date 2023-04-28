@@ -19,6 +19,12 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/txthinking/brook> [科学上网工具-为开发者]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/cockpit-project/cockpit> [基于WEB的服务器界面(网页管理服务器)]
-- <https://github.com/Snipaste/feedback> [截图工具-灰常好用]
-- <https://github.com/zhongyang219/TrafficMonitor> [内存网速实时查看工具]
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
+
+# Tools
+- <https://github.com/Snipaste/feedback> [截图工具]
+- <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
+- <https://www.faststone.org/> [看图工具]
+- <https://mobaxterm.mobatek.net/> [终端工具]
+- <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
+- <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
