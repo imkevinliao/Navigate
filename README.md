@@ -5,7 +5,7 @@
 
 chatgpt-3.5:https://chatbot.theb.ai/
 
-[Github源文件获取](https://imkevinliao.github.io/MagicX)
+[Github源文件获取](https://imkevinliao.github.io/MagicX/index.html)
 
 # PersonalProject[Pied Piper]
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
