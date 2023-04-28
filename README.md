@@ -14,8 +14,8 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/flask-future> [flask]
 
 # Recommendation
-- [V2ray 合集](./markdown/v2ray.md)
-- [Flask and Django](./markdown/website.md)
+- [V2ray series](./markdown/v2ray.md)
+- [Flask and Django series](./markdown/website.md)
 - <https://github.com/filebrowser/filebrowser> [轻量级文件管理器(可以用作网盘)]
 - <https://github.com/txthinking/brook> [科学上网工具-为开发者]
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
