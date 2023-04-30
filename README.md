@@ -29,6 +29,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/cockpit-project/cockpit> [网页管理服务器]
 - <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
 ------
+- <https://www.voidtools.com/zh-cn/> [Everything 文件搜索]
 - <https://www.faststone.org/> [看图]
 - <https://mobaxterm.mobatek.net/> [终端 Terminal]
 - <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
