@@ -23,6 +23,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
 ------
 - <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office激活]
+- <https://github.com/pbatard/rufus> [U盘镜像制作工具]
 - <https://github.com/Snipaste/feedback> [截图]
 - <https://github.com/filebrowser/filebrowser> [轻量文件管理器(可以用作网盘)]
 - <https://github.com/cockpit-project/cockpit> [网页管理服务器]
