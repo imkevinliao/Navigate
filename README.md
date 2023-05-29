@@ -18,6 +18,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
 - <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
+- <https://github.com/PyQt5/PyQt> [PyQt 学习]
 
 # Tools
 - <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
