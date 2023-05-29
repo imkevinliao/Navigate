@@ -1,9 +1,9 @@
 # V2ray 两大分支
 - https://github.com/v2fly/v2ray-core [社区版]
-- https://github.com/XTLS/Xray-core [因争议而出的改良版]
+- https://github.com/XTLS/Xray-core [社区理念之争的产物]
 
 # V2ray 脚本
-- https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了一些特殊网站]
+- https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了法轮功]
 - https://github.com/Jrohy/multi-v2ray [不要切换Python系统版本]
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
 
