@@ -11,6 +11,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/PyMagic> [Personal Module]
 - <https://github.com/imkevinliao/stock> [Stock]
 - <https://github.com/imkevinliao/flask-future> [flask]
+- <https://github.com/imkevinliao/crypto> [Crypto Tool]
 
 # Recommendation
 - [V2ray Series 科学上网](./markdown/v2ray.md)
@@ -22,6 +23,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 
 # Tools
 - <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
+- <https://github.com/imkevinliao/crypto> [个人加密工具]
 ------
 - <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office激活]
 - <https://github.com/pbatard/rufus> [U盘镜像制作工具]
