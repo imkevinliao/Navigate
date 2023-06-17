@@ -31,6 +31,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/filebrowser/filebrowser> [轻量文件管理器(可以用作网盘)]
 - <https://github.com/cockpit-project/cockpit> [网页管理服务器]
 - <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
+- <https://github.com/IENT/YUView> [YUV文件查看工具]
 ------
 - <https://www.voidtools.com/zh-cn/> [Everything 文件搜索]
 - <https://www.faststone.org/> [看图]
