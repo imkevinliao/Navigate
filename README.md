@@ -35,6 +35,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 ------
 - <https://www.voidtools.com/zh-cn/> [Everything 文件搜索]
 - <https://www.faststone.org/> [看图]
+- <https://imagej.net/ij/download.html> [ImageJ 合成gif]
 - <https://mobaxterm.mobatek.net/> [终端 Terminal]
 - <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
