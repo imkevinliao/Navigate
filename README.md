@@ -20,6 +20,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
 - <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
 - <https://github.com/PyQt5/PyQt> [PyQt 学习]
+- <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
 
 # Tools
 - <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
