@@ -15,7 +15,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 
 # Recommendation
 - [V2ray Series 科学上网](./markdown/v2ray.md)
-- [Flask and Django Series](./markdown/website.md)
+- [Flask and Django 系列](./markdown/website.md)
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/yeasy/docker_practice> [Docker教程]
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
