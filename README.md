@@ -27,6 +27,7 @@ chatgpt-3.5:https://chatbot.theb.ai/
 # Tools
 - <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
 - <https://github.com/imkevinliao/crypto> [个人加密工具]
+- <https://github.com/imkevinliao/yuv2rgb> [yuv转rgb工具]
 ------
 - <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office激活]
 - <https://github.com/pbatard/rufus> [U盘镜像制作工具]
