@@ -1,7 +1,14 @@
 # MagicX
-生命有限，好的代码应该像 BeyondCompare
+Life Is Limited, Good Code Should Be Like BeyondCompare
 
-生命有限，在不敲代码的日子里，可以晒太阳，吹海风，听蝉鸣，感受时光流逝
+生命有限，请浪费在：
+
+```
+袅袅东风 悠悠倒景 摇动云山水又波
+山水最宜情共乐 琴书赢得道相亲
+遍拆红芳千万树 流莺粉蝶斗翻飞
+倚天翠湿 看浮云 收尽雨还晴 晓色千松逗冷 照人眼底长青
+```
 
 chatgpt-3.5:https://chatbot.theb.ai/
 
