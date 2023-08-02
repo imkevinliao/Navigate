@@ -10,7 +10,7 @@ Life Is Limited, Good Code Should Be Like BeyondCompare
 倚天翠湿 看浮云 收尽雨还晴 晓色千松逗冷 照人眼底长青
 ```
 
-chatgpt-3.5:https://chatbot.theb.ai/
+chatgpt-3.5: https://chatbot.theb.ai/
 
 # Project[Pied Piper * 魔笛手]
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
