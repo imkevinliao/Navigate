@@ -10,8 +10,8 @@ chatgpt-3.5:https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu + Python]
 - <https://github.com/imkevinliao/PyMagic> [Personal Module]
 - <https://github.com/imkevinliao/stock> [Stock]
-- <https://github.com/imkevinliao/crypto> [加密工具]
-- <https://github.com/imkevinliao/yuv2rgb> [yuv转rgb工具]
+- <https://github.com/imkevinliao/crypto> [加密 工具]
+- <https://github.com/imkevinliao/yuv2rgb> [YUV2RGB 工具]
 
 # Recommendation
 - [V2ray Series 科学上网](./markdown/v2ray.md)
