@@ -50,3 +50,4 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <http://www.q-dir.com/> [多窗口文件夹浏览 Explorer]
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
 - <https://jianwai.youdao.com/index/0> [网易见外 视频剪辑]
+- <https://www.advancedrenamer.com/> [重命名工具]
