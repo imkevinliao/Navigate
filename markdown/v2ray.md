@@ -5,7 +5,7 @@
 # V2ray 脚本
 - https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了法轮功网站]
 - https://github.com/Jrohy/multi-v2ray [不要切换Python系统版本]
-- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
+- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey [脚本使用的较老的VMESS协议，不建议使用]
 - https://github.com/mack-a/v2ray-agent
 
 # V2ray 客户端
