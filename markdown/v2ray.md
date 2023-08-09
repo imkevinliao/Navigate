@@ -18,5 +18,10 @@
 # V2ray 社区官网
 https://www.v2fly.org/
 
+# trojan
+- <https://github.com/Jrohy/trojan> [作者更新勤快]
+- <https://github.com/atrandys/trojan> [比较老旧]
+
+
 # 其他
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
