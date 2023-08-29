@@ -13,11 +13,11 @@ Life Is Limited, Good Code Should Be Like BeyondCompare
 chatgpt-3.5: https://chatbot.theb.ai/
 
 # Project[Pied Piper * 魔笛手]
-- <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
-- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu + Python]
-- <https://github.com/imkevinliao/PyMagic> [Personal Module]
-- <https://github.com/imkevinliao/crypto> [加密 工具]
-- <https://github.com/imkevinliao/yuv2rgb> [YUV2RGB 工具]
+- <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
+- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu笔记]
+- <https://github.com/imkevinliao/PyMagic> [Python笔记]
+- <https://github.com/imkevinliao/crypto> [个人加密工具]
+- <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
 - ~~<https://github.com/imkevinliao/stock> [Stock]~~
 
 # Recommendation
