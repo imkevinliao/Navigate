@@ -18,6 +18,7 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/PyMagic> [Python笔记]
 - <https://github.com/imkevinliao/crypto> [个人加密工具]
 - <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
+- <https://github.com/imkevinliao/net_speed_check> [服务器测速（真实网速）]
 - ~~<https://github.com/imkevinliao/stock> [Stock]~~
 
 # Recommendation
