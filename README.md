@@ -19,7 +19,7 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/crypto> [个人加密工具]
 - <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
 - <https://github.com/imkevinliao/net_speed_check> [服务器测速（真实网速）]
-- ~~<https://github.com/imkevinliao/stock> [Stock]~~
+- ~~<https://github.com/imkevinliao/stock> [Stock 直接使用Akshare API更为方便 二次封装有些多余]~~
 
 # Recommendation
 - [V2ray Series 科学上网系列](./markdown/v2ray.md)
