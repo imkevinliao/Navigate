@@ -16,26 +16,13 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
 - <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu笔记]
 - <https://github.com/imkevinliao/PyMagic> [Python笔记]
-- <https://github.com/imkevinliao/crypto> [个人加密工具]
-- <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
-- <https://github.com/imkevinliao/net_speed_check> [服务器测速（真实网速）]
-- ~~<https://github.com/imkevinliao/stock> [Stock 直接使用Akshare API更为方便 二次封装有些多余]~~
-
-# Recommendation
-- [V2ray Series 科学上网系列](./markdown/v2ray.md)
-- [Flask and Django 系列](./markdown/website.md)
-- <https://github.com/huataihuang/cloud-atlas> [云计算学习]
-- <https://github.com/yeasy/docker_practice> [Docker教程]
-- <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
-- <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
-- <https://github.com/PyQt5/PyQt> [PyQt 学习]
-- <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
-
 # Tools
-## 个人
+## 个人项目
 - <https://imkevinliao.github.io/convert/> [获取 Github Raw URL]
 - <https://github.com/imkevinliao/crypto> [加密工具]
 - <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
+- ~~<https://github.com/imkevinliao/net_speed_check> [服务器测速（真实网速）有些多余]~~
+- ~~<https://github.com/imkevinliao/stock> [Stock 直接使用Akshare API更为方便 二次封装有些多余]~~
 ## Github
 - <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office 激活]
 - <https://github.com/pbatard/rufus> [U盘镜像制作工具]
@@ -53,3 +40,12 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
 - <https://jianwai.youdao.com/index/0> [网易见外 视频剪辑]
 - <https://www.advancedrenamer.com/> [重命名工具]
+# Recommendation
+- [V2ray Series 科学上网系列](./markdown/v2ray.md)
+- [Flask and Django 系列](./markdown/website.md)
+- <https://github.com/huataihuang/cloud-atlas> [云计算学习]
+- <https://github.com/yeasy/docker_practice> [Docker教程]
+- <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
+- <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
+- <https://github.com/PyQt5/PyQt> [PyQt 学习]
+- <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
