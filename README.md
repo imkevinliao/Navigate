@@ -1,4 +1,4 @@
-# MagicX
+# 序言
 Life Is Limited, Good Code Should Be Like BeyondCompare
 ```
 生命有限，请浪费在：
