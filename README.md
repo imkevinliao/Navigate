@@ -32,19 +32,22 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
 
 # Tools
-- <https://imkevinliao.github.io/convert/> [获取Github文件源URL]
-- <https://github.com/imkevinliao/crypto> [个人加密工具]
-- <https://github.com/imkevinliao/yuv2rgb> [yuv转rgb工具]
+## 个人
+- <https://imkevinliao.github.io/convert/> [获取 Github Raw URL]
+- <https://github.com/imkevinliao/crypto> [加密工具]
+- <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
 ------
-- <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office激活]
+## Github
+- <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office 激活]
 - <https://github.com/pbatard/rufus> [U盘镜像制作工具]
-- <https://github.com/Snipaste/feedback> [截图]
-- <https://github.com/filebrowser/filebrowser> [轻量文件管理器(可以用作网盘)]
+- <https://github.com/Snipaste/feedback> [截图工具]
+- <https://github.com/filebrowser/filebrowser> [轻量文件管理器]
 - <https://github.com/cockpit-project/cockpit> [网页管理服务器]
 - <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
 - <https://github.com/IENT/YUView> [YUV文件查看工具]
 ------
-- <https://www.voidtools.com/zh-cn/> [Everything 文件搜索]
+## 第三方
+- <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
 - <https://imagej.net/ij/download.html> [ImageJ 合成gif]
 - <https://mobaxterm.mobatek.net/> [终端 Terminal]
