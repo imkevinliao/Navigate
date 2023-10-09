@@ -1,9 +1,7 @@
 # MagicX
 Life Is Limited, Good Code Should Be Like BeyondCompare
-
-生命有限，请浪费在：
-
 ```
+生命有限，请浪费在：
 袅袅东风 悠悠倒景 摇动云山水又波
 山水最宜情共乐 琴书赢得道相亲
 遍拆红芳千万树 流莺粉蝶斗翻飞
@@ -16,7 +14,7 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
 - <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu笔记]
 - <https://github.com/imkevinliao/PyMagic> [Python笔记]
-# Tools
+# 效率
 ## 个人项目
 - <https://imkevinliao.github.io/convert/> [获取 Github Raw URL]
 - <https://github.com/imkevinliao/crypto> [加密工具]
