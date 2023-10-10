@@ -47,9 +47,7 @@ Life is Limited, Good Code Should Be Like BeyondCompare
 - <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
 - <https://github.com/PyQt5/PyQt> [PyQt 学习]
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
-
 # MacOS
 - <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版]
-
 # 其他
 chatgpt-3.5: https://chatbot.theb.ai/
