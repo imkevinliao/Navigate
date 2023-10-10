@@ -12,7 +12,7 @@ Life is Limited, Good Code Should Be Like BeyondCompare
 ```
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
-- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu Note]
+- <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
 - <https://github.com/imkevinliao/PythonDocs> [Python Note]
 # 效率
 ## 个人项目
