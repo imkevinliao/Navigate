@@ -10,9 +10,9 @@ Life Is Limited, Good Code Should Be Like BeyondCompare
 chatgpt-3.5: https://chatbot.theb.ai/
 
 # Pied Piper * 魔笛手
-- <https://github.com/imkevinliao/imkevinliao.github.io> [个人网站]
-- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu笔记]
-- <https://github.com/imkevinliao/PyMagic> [Python笔记]
+- <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
+- <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu Note]
+- <https://github.com/imkevinliao/PythonDocs> [Python Note]
 # 效率
 ## 个人项目
 - <https://github.com/imkevinliao/crypto> [加密工具]
