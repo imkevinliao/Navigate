@@ -1,14 +1,15 @@
 # 序言
-Life Is Limited, Good Code Should Be Like BeyondCompare
+Life is Limited, Good Code Should Be Like BeyondCompare
 ```
-生命有限，请浪费在：
-袅袅东风 悠悠倒景 摇动云山水又波
-山水最宜情共乐 琴书赢得道相亲
-遍拆红芳千万树 流莺粉蝶斗翻飞
-倚天翠湿 看浮云 收尽雨还晴 晓色千松逗冷 照人眼底长青
+似花还似非花 也无人惜从教坠
+抛家傍路 思量却是 无情有思
+萦损柔肠 困酣娇眼 欲开还闭
+梦随风万里 寻郎去处 又还被、莺呼起
+不恨此花飞尽 恨西园、落红难缀
+晓来雨过 遗踪何在
+一池萍碎 春色三分 二分尘土 一分流水
+细看来 不是杨花点点 是离人泪
 ```
-
-
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
 - <https://github.com/imkevinliao/Ubuntu-Docs> [Ubuntu Note]
