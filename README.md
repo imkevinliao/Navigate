@@ -7,7 +7,7 @@ Life Is Limited, Good Code Should Be Like BeyondCompare
 遍拆红芳千万树 流莺粉蝶斗翻飞
 倚天翠湿 看浮云 收尽雨还晴 晓色千松逗冷 照人眼底长青
 ```
-chatgpt-3.5: https://chatbot.theb.ai/
+
 
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
@@ -46,3 +46,6 @@ chatgpt-3.5: https://chatbot.theb.ai/
 - <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
 - <https://github.com/PyQt5/PyQt> [PyQt 学习]
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
+
+# 其他
+chatgpt-3.5: https://chatbot.theb.ai/
