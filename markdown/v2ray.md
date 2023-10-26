@@ -5,7 +5,7 @@
 # V2ray 脚本
 - https://github.com/Jrohy/multi-v2ray [推荐]
 - https://github.com/mack-a/v2ray-agent
-- https://github.com/233boy/v2ray/tree/master [作者私自在配置文件中禁止部分网站]
+- https://github.com/233boy/v2ray/tree/master [作者私自在 V2ray 配置文件中禁止部分网站]
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey 
 
 
