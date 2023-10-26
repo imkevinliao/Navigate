@@ -3,10 +3,11 @@
 - https://github.com/XTLS/Xray-core [因社区理念争议而生]
 
 # V2ray 脚本
-- https://github.com/233boy/v2ray/tree/master [脚本在配置中禁止了法轮功网站]
-- https://github.com/Jrohy/multi-v2ray [不要切换Python系统版本]
-- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey [脚本使用的较老的VMESS协议，不建议使用]
+- https://github.com/Jrohy/multi-v2ray [推荐]
 - https://github.com/mack-a/v2ray-agent
+- https://github.com/233boy/v2ray/tree/master [作者私自在配置文件中禁止部分网站]
+- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey 
+
 
 # V2ray 客户端
 - https://github.com/2dust/v2rayN [Windows]
