@@ -25,6 +25,7 @@ https://www.v2fly.org/
 
 # 其他
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
+- <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
 
 # 机场资讯
 - <https://duangks.com/>
