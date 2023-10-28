@@ -31,5 +31,7 @@ https://www.v2fly.org/
 # 机场资讯
 - <https://duangks.com/>
 # 机场
-- <https://naiyovpn.com/> 唯云四杰之一 有口皆碑
+唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险，只能说相对于大部分机场而言，概率低很多
+- <https://naiyovpn.com/> 唯云四杰之一
+- <https://nxboom.com/> 唯云四杰之首
 - <https://moriyun.vip/> 注意识别跑路风险
