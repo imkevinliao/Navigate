@@ -23,14 +23,16 @@ https://www.v2fly.org/
 - <https://github.com/Jrohy/trojan> [作者更新勤快]
 - <https://github.com/atrandys/trojan> [比较老旧]
 
+# BBR 
+`wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh`
 
 # 其他
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
 
-# 机场资讯
-- <https://duangks.com/>
 # 机场
+机场资讯 - <https://duangks.com/>
+
 唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险
 
 衡量一家优质机场的标准：
