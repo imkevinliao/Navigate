@@ -31,4 +31,5 @@ https://www.v2fly.org/
 # 机场资讯
 - <https://duangks.com/>
 # 机场
-- < https://naiyovpn.com/> 唯云四杰之一 网友口碑好
+- <https://naiyovpn.com/> 唯云四杰之一 有口皆碑
+- <https://moriyun.vip/> 注意识别跑路风险
