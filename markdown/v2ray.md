@@ -2,8 +2,8 @@
 分支（两大分支）
 - https://github.com/v2fly/v2ray-core [Project V2ray]
 - https://github.com/XTLS/Xray-core [Project Xray]
-- V2ray 社区官网 <https://www.v2fly.org/>
-- Xray 官方网站 [Xray 与 V2ray 理念不合 自立门户] <https://xtls.github.io/>
+- <https://www.v2fly.org/> V2ray 社区官网 
+- <https://xtls.github.io/> Xray 官方网站 [Xray 与 V2ray 理念不合 自立门户] 
 
 脚本
 - https://github.com/Jrohy/multi-v2ray [推荐]
