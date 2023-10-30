@@ -14,6 +14,7 @@ V2ray 社区官网 <https://www.v2fly.org/>
 客户端
 - https://github.com/2dust/v2rayN [Windows]
 - https://github.com/2dust/v2rayNG [Android]
+- https://apps.apple.com/ca/app/shadowrocket/id932747118 [Shadowrocket]
 
 模板 <https://github.com/v2fly/v2ray-examples> 自主搭建会用得上（小白绕道）
 
