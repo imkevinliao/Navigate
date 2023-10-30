@@ -20,10 +20,13 @@ V2ray 社区官网 <https://www.v2fly.org/>
 
 ```
 v2ray 摘要
-v2ray 是一种大一统工具，可以支持容纳各类协议，例如 trojan 搭建的梯子就可以使用 v2ray 客户端进行配置
 
-vmess vless 是 v2ray 官方标准协议，其中 vless 是对 vmess 的升级，vless 与 vmess 在用户体验上最大的区别就是不需要时间同步！
-vless 协议不需要服务器和本地时间一致，vmess 协议如果时间不同步会无法使用，这个问题在早期令许多人不清楚为何搭建完成无法使用
+Project V 是项目，v2ray 是该项目的产物（工具）。严格意义上来说，v2ray 只代表内核，但大家叫习惯了，所以 v2ray = Project V。Project V 支持许多协议（这些协议正是我们跨过 gfw 的核心）
+
+vmess vless 是 v2ray 官方标准协议，其中 vless 是对 vmess 的升级，vmess 成为历史是必然
+
+vless 与 vmess 对于用户而言就是 vless 协议不需要服务器和本地时间一致，而 vmess 协议如果时间不同步会导致客户端和服务端无法正常使用，这个问题在早期令许多搭建者头疼（例如你的服务器在美国）
+
 vmess 和 vless 对于 gfw 属于透明存在，所以通常套 tls 使用，互联网大部分流量都是 tls 也就是使用 https 流量的网站。
 
 请不要裸 vless 使用，至少套上 tls 走 443 端口，虽然 gfw 有一定能力可以识别，但裸 vless 则是百分百识别。
