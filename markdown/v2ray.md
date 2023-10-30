@@ -4,6 +4,7 @@
 - https://github.com/XTLS/Xray-core [Xray 与 V2ray 理念不合 自立门户]
 
 V2ray 社区官网 <https://www.v2fly.org/>
+Xray  官方网站 <https://xtls.github.io/>
 
 脚本
 - https://github.com/Jrohy/multi-v2ray [推荐]
