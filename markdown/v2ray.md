@@ -30,7 +30,7 @@ V2ray 社区官网 <https://www.v2fly.org/>
 - <https://www.microcloud.cc/index.php?rp=/store/azure-hk>
 - <https://liwt31.github.io/2018/01/09/lightsail/> [aws lightsail]
 
-aws lightsail 额外脚本 用户 kevin 密码 123456 登录后请一定重置密码（passwd kevin)
+aws lightsail 额外脚本 用户 kevin 密码 123456 登录后请一定重置密码（passwd kevin) 或者配置完后删除 kevin 用户
 ```
 sudo useradd kevin -m -s /bin/bash
 echo 'kevin:123456' | sudo chpasswd
