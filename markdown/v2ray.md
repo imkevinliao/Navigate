@@ -32,8 +32,8 @@ trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全
 
 # 服务器 && 机场
 服务器
-- <https://www.microcloud.cc/index.php?rp=/store/azure-hk>
-- <https://liwt31.github.io/2018/01/09/lightsail/> [aws lightsail]
+- <https://www.microcloud.cc/index.php?rp=/store/azure-hk> [注意识别风险]
+- <https://liwt31.github.io/2018/01/09/lightsail/> [aws lightsail (aws 全球云服务器的老大 唯一的风险就是你不了解计费规则导致天价账单 节点选日本或者新加坡其他不推荐)]
 
 aws lightsail 额外脚本 用户 kevin 密码 123456 登录后请一定重置密码（passwd kevin) 或者配置完后删除 kevin 用户
 ```
