@@ -1,5 +1,6 @@
 # 序言
 Life is Limited, Good Code Should Be Like BeyondCompare
+- [科学上网系列](./markdown/v2ray.md)
 ```
 似花还似非花 也无人惜从教坠
 抛家傍路 思量却是 无情有思
@@ -39,7 +40,6 @@ Life is Limited, Good Code Should Be Like BeyondCompare
 - <https://jianwai.youdao.com/index/0> [网易见外 视频剪辑]
 - <https://www.advancedrenamer.com/> [重命名工具]
 # 推荐
-- [V2ray Series 科学上网系列](./markdown/v2ray.md)
 - [Flask and Django 系列](./markdown/website.md)
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/yeasy/docker_practice> [Docker教程]
