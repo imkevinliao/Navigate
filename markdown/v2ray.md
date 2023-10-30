@@ -1,4 +1,4 @@
-# V2ray 不止于 V2ray
+# V2ray Or Xray | Bright Future
 分支（两大分支）
 - https://github.com/v2fly/v2ray-core [社区版]
 - https://github.com/XTLS/Xray-core [因社区理念争议而生]
