@@ -1,6 +1,6 @@
 # 序言
 Life is Limited, Good Code Should Be Like BeyondCompare
-- [科学上网 你可以了解到科学上网的一切](./markdown/v2ray.md)
+- [关于科学上网的一切](./markdown/v2ray.md)
 ```
 似花还似非花 也无人惜从教坠
 抛家傍路 思量却是 无情有思
