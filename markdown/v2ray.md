@@ -18,6 +18,34 @@ V2ray 社区官网 <https://www.v2fly.org/>
 
 模板 <https://github.com/v2fly/v2ray-examples> 自主搭建会用得上（小白绕道）
 
+```
+v2ray 摘要
+v2ray 是一种大一统工具，可以支持容纳各类协议，例如 trojan 搭建的梯子就可以使用 v2ray 客户端进行配置
+
+vmess vless 是 v2ray 官方标准协议，其中 vless 是对 vmess 的升级，vless 与 vmess 在用户体验上最大的区别就是不需要时间同步！
+vless 协议不需要服务器和本地时间一致，vmess 协议如果时间不同步会无法使用，这个问题在早期令许多人不清楚为何搭建完成无法使用
+vmess 和 vless 对于 gfw 属于透明存在，所以通常套 tls 使用，互联网大部分流量都是 tls 也就是使用 https 流量的网站。
+
+请不要裸 vless 使用，至少套上 tls 走 443 端口，虽然 gfw 有一定能力可以识别，但裸 vless 则是百分百识别。
+
+常规方案：（存在一定被识别风险）
+1. vless + tcp + tls
+2. vless + websocket + tls
+
+怕死就再套 cdn ，套了 cdn 几乎不可能被封禁，但也有其他问题
+
+v2ray 由于社区争议导致，v2ray 分成了两拨人，一波继续维护 v2ray 内核，另一波开发了 xray 内核
+
+两者大部分情况下可以通用，但是有些协议只能使用 xray 内核，v2ray 内核并不支持，你可以理解为 xray 支持更广泛
+
+v2ray 和 xray 更像是一个是保守派，一个是激进派
+
+xray 的一些解决方案理论上来说更为安全，甚至达到了完全欺骗，安全性极高，但更新什么的太快了，要不断学习
+
+对于一个工具而言，需要不断学习，那成本太高了，就让那些狂热者去做吧，一般选择 v2ray + vless + tcp + tls 足以
+```
+
+
 # trojan
 trojan 项目：<https://github.com/trojan-gfw/trojan>
 
