@@ -29,6 +29,7 @@ trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全
 
 # BBR 
 使用原生 BBR 加速就好，魔改锐速之类的建议慎用
+
 ```wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh```
 
 # 服务器 && 机场
