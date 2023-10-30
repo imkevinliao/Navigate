@@ -50,3 +50,15 @@ https://www.v2fly.org/
 注意识别跑路风险
 - <https://mxwljsq.top/>
 - <https://moriyun.vip/> 
+
+# aws lightsail
+<https://liwt31.github.io/2018/01/09/lightsail/>
+
+增加用户kevin，可以密码登录，登录后请一定重置密码（passwd kevin)
+```
+sudo useradd kevin -m -s /bin/bash
+echo 'kevin:123456' | sudo chpasswd
+sudo sed -i '52c PasswordAuthentication yes' /etc/ssh/sshd_config
+sudo service sshd restart
+sudo sed -i '20a kevin    ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
+```
