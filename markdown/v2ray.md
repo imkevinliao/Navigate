@@ -21,7 +21,7 @@ V2ray 社区官网 <https://www.v2fly.org/>
 # trojan
 trojan 项目：<https://github.com/trojan-gfw/trojan>
 
-trojan 项目主力开发者已经停更很久了，诚然 trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，v2ray 社区的活跃显得难能可贵
+trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，v2ray 社区的活跃显得难能可贵
 
 - <https://github.com/Jrohy/trojan> [持续维护]
 - <https://github.com/atrandys/trojan> [已经停更]
