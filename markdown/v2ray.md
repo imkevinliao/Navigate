@@ -19,8 +19,13 @@ V2ray 社区官网 <https://www.v2fly.org/>
 模板 <https://github.com/v2fly/v2ray-examples> 自主搭建会用得上（小白绕道）
 
 # trojan
-- <https://github.com/Jrohy/trojan> [作者更新勤快]
-- <https://github.com/atrandys/trojan> [比较老旧]
+trojan 项目：<https://github.com/trojan-gfw/trojan>
+
+trojan 项目主力开发者已经停更很久了，诚然 trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，v2ray 社区的活跃显得难能可贵
+
+- <https://github.com/Jrohy/trojan> [持续维护]
+- <https://github.com/atrandys/trojan> [已经停更]
+
 
 # BBR 
 `wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh`
