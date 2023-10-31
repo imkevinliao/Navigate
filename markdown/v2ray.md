@@ -103,6 +103,7 @@ crontab -e
 */5 * * * * /root/auto-shutdown.sh > /dev/null 2>&1
 
 附带：
+定时任务测试：https://crontab.guru/
 vnstat -d 查看每日流量
 vnstat -m 查看每月流量
 vnstat 配置文件 /etc/vnstat.conf 这里面默认每月 1 号开始统计所以不用担心脚本问题，可以自己看一眼确认
