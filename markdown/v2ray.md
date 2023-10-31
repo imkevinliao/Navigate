@@ -79,6 +79,33 @@ sudo sed -i '52c PasswordAuthentication yes' /etc/ssh/sshd_config
 sudo service sshd restart
 sudo sed -i '20a kevin    ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 ```
+aws lightsail 超流量自动关机 参考网址：
+- https://fmk.im/p/shutdown-aws/
+- https://zset.cc/archives/25/
+```
+请使用root账户操作
+
+apt install vnstat
+
+vim /root/auto-shutdown.sh
+
+#!/bin/bash
+TRAFF_TOTAL=950 #流量额度，单位 GB。
+TRAFF_USED=$(vnstat --oneline b | awk -F';' '{print $11}')
+CHANGE_TO_GB=$(expr $TRAFF_USED / 1073741824)
+
+if [ $CHANGE_TO_GB -gt $TRAFF_TOTAL ]; then
+    shutdown -h now
+fi
+
+crontab -e
+*/5 * * * * /root/auto-shutdown.sh > /dev/null 2>&1
+
+附带：
+vnstat -d 查看每日流量
+vnstat -m 查看每月流量
+vnstat 配置文件 /etc/vnstat.conf 这里面默认每月 1 号开始统计所以不用担心脚本问题，可以自己看一眼确认
+```
 
 机场资讯 - <https://duangks.com/>
 
