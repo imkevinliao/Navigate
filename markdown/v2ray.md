@@ -63,6 +63,7 @@ trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全
 
 # BBR 
 ```wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh```
+
 这里简单提一下吧，BBR 实际上也是历史，简单提一下吧。
 
 大概在 2020 年以前，那时候的 linux 发行版本大多没有 bbr 内核，所以很多人会去安装各种内核，如锐速，bbr，还有很多所谓的魔改内核，在那个时期确实有效果。
