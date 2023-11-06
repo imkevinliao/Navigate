@@ -62,9 +62,13 @@ trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全
 
 
 # BBR 
-使用原生 BBR 加速就好，魔改锐速之类的建议慎用
-
 ```wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh```
+这里简单提一下吧，BBR 实际上也是历史，简单提一下吧。
+
+大概在 2020 年以前，那时候的 linux 发行版本大多没有 bbr 内核，所以很多人会去安装各种内核，如锐速，bbr，还有很多所谓的魔改内核，在那个时期确实有效果。
+
+可是现在的 linux 发行版本，基本都已经内置了内核，只是没有开启加速服务而已。所以，对于现在的用户如果还使用以前的魔改内核，可能会起到副作用。
+只需要大致知道这么一段历史就行了，现在只需要启用加速服务就可以了，不要做多余操作。
 
 # 服务器 && 机场
 服务器
