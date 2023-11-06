@@ -130,3 +130,5 @@ vnstat 配置文件 /etc/vnstat.conf 这里面默认每月 1 号开始统计所�
 # 其他
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
+# 彩蛋
+- <https://github.com/The-Run-Philosophy-Organization/run> [润学]
