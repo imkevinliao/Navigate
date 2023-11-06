@@ -1,6 +1,4 @@
 # 序言
-Life is Limited, Good Code Should Be Like BeyondCompare
-- [关于科学上网的一切](./markdown/v2ray.md)
 ```
 似花还似非花 也无人惜从教坠
 抛家傍路 思量却是 无情有思
@@ -11,6 +9,8 @@ Life is Limited, Good Code Should Be Like BeyondCompare
 一池萍碎 春色三分 二分尘土 一分流水
 细看来 不是杨花点点 是离人泪
 ```
+- [关于科学上网的一切](./markdown/v2ray.md)
+
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
@@ -52,4 +52,4 @@ Life is Limited, Good Code Should Be Like BeyondCompare
 # IOS
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐]
 # 其他
-chatgpt-3.5: https://chatbot.theb.ai/
+- <https://chatbot.theb.ai/> [chatgpt-3.5]
