@@ -15,9 +15,7 @@
 - https://github.com/2dust/v2rayN [Windows]
 - https://github.com/2dust/v2rayNG [Android]
 - https://apps.apple.com/ca/app/shadowrocket/id932747118 [Shadowrocket (美区账号 付费应用)]
-
-模板 <https://github.com/v2fly/v2ray-examples> 自主搭建会用得上（小白绕道）
-
+- <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
 ```
 v2ray 摘要
 
