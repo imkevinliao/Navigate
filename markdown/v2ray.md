@@ -108,6 +108,7 @@ crontab -e
 */5 * * * * /root/auto-shutdown.sh > /dev/null 2>&1
 
 附带：
+时区时间校准： timedatectl set-timezone Asia/Shanghai    
 定时任务测试：https://crontab.guru/
 vnstat -d 查看每日流量
 vnstat -m 查看每月流量
