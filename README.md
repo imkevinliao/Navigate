@@ -24,6 +24,7 @@
 - ~~<https://github.com/imkevinliao/stock> [直接使用Akshare API更为方便 二次封装显得多余]~~
 ## Github
 - <https://github.com/zbezj/HEU_KMS_Activator> [Windows Office 激活]
+- <https://github.com/hellzerg/optimizer> [Windows 优化]
 - <https://github.com/pbatard/rufus> [U盘镜像制作工具]
 - <https://github.com/Snipaste/feedback> [截图工具]
 - <https://github.com/filebrowser/filebrowser> [轻量文件管理器]
