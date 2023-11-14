@@ -30,6 +30,7 @@
 - <https://github.com/cockpit-project/cockpit> [网页管理服务器]
 - <https://github.com/zhongyang219/TrafficMonitor> [实时查看内存网速]
 - <https://github.com/IENT/YUView> [YUV文件查看工具]
+- <https://github.com/CorentinTh/it-tools> [好用的 IT 工具箱]
 ## 第三方
 - <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
