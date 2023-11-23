@@ -45,10 +45,10 @@
 - [Flask and Django 系列](./markdown/website.md)
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/yeasy/docker_practice> [Docker教程]
-- <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go语言学习指南]
-- <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习]
-- <https://github.com/PyQt5/PyQt> [PyQt 学习]
-- <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲得很清楚且有源码]
+- <https://github.com/KeKe-Li/For-learning-Go-Tutorial> [Go 语言学习指南]
+- <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习指南]
+- <https://github.com/PyQt5/PyQt> [PyQt 学习指南]
+- <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲解细致 有配套源码]
 # MacOS
 - <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版]
 # IOS
