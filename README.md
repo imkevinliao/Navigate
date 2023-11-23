@@ -41,7 +41,7 @@
 - <https://c.runoob.com/front-end/854/> [正则表达式在线测试]
 - <https://jianwai.youdao.com/index/0> [网易见外 视频剪辑]
 - <https://www.advancedrenamer.com/> [重命名工具]
-# 推荐
+# 学习
 - [Flask and Django 系列](./markdown/website.md)
 - <https://github.com/huataihuang/cloud-atlas> [云计算学习]
 - <https://github.com/yeasy/docker_practice> [Docker教程]
