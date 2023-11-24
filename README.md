@@ -12,9 +12,10 @@
 - [关于科学上网的一切](./markdown/v2ray.md)
 
 # Pied Piper * 魔笛手
-- <https://github.com/imkevinliao/imkevinliao.github.io> [Personal Website]
+- <https://github.com/imkevinliao/imkevinliao.github.io>
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
 - <https://github.com/imkevinliao/PythonDocs> [Python Note]
+- <https://github.com/imkevinliao/GolangDocs> [Golang Note]
 # 效率
 ## 个人项目
 - <https://github.com/imkevinliao/crypto> [加密工具]
