@@ -50,9 +50,9 @@
 - <https://www.cnblogs.com/nickchen121/p/10718112.html> [Python 学习指南]
 - <https://github.com/PyQt5/PyQt> [PyQt 学习指南]
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲解细致 有配套源码]
-# MacOS
-- <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版]
-# IOS
-- <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐]
+# APP
+- <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版][MacOS]
+- <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
+- <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
 # 其他
 - <https://chatbot.theb.ai/> [chatgpt-3.5]
