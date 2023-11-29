@@ -1,4 +1,5 @@
 # 序言
+- [关于科学上网的一切](./markdown/v2ray.md)
 ```
 似花还似非花 也无人惜从教坠
 抛家傍路 思量却是 无情有思
@@ -9,8 +10,6 @@
 一池萍碎 春色三分 二分尘土 一分流水
 细看来 不是杨花点点 是离人泪
 ```
-- [关于科学上网的一切](./markdown/v2ray.md)
-
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io>
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
