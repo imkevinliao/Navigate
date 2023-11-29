@@ -55,5 +55,6 @@
 # 其他
 - <https://chatbot.theb.ai/> [第三方]
 - <https://chat.openai.com/> [官方]
+- <https://github.com/LiLittleCat/awesome-free-chatgpt> (chatgpt 镜像列表)
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
