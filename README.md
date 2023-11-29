@@ -53,6 +53,7 @@
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
 - <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
 # 其他
-- <https://chatbot.theb.ai/> [chatgpt-3.5]
+- <https://chatbot.theb.ai/> [第三方]
+- <https://chat.openai.com/> [官方]
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
