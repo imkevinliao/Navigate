@@ -10,6 +10,11 @@
 一池萍碎 春色三分 二分尘土 一分流水
 细看来 不是杨花点点 是离人泪
 ```
+>Windows 是工作
+>
+>Mac 是生活
+>
+>Linux 是热爱
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io>
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
