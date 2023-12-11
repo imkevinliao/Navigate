@@ -57,7 +57,7 @@
 - <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版][MacOS]
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
 - <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
-# 其他
+# ChatGPT
 - <https://chatbot.theb.ai/> [第三方]
 - <https://chat.openai.com/> [官方]
 - <https://github.com/LiLittleCat/awesome-free-chatgpt> (chatgpt 镜像列表)
