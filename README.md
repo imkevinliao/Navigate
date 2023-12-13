@@ -48,8 +48,10 @@
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
 - <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
 # ChatGPT
-- <https://chatbot.theb.ai/> [第三方]
 - <https://chat.openai.com/> [官方]
+- <https://chatbot.theb.ai/> [free 3.5 charge 4]
+- <https://www.forefront.ai/app/chat/new>[free 3.5 charge 4]
+- <https://ora.ai/openai/chatgpt>[free 3 charge 4]
 - <https://github.com/LiLittleCat/awesome-free-chatgpt> (chatgpt 镜像列表)
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
