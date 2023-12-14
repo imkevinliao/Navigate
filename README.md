@@ -55,3 +55,4 @@
 - <https://github.com/LiLittleCat/awesome-free-chatgpt> (chatgpt 镜像列表)
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
+* <https://codewithstein.com/combining-django-and-vuejs-everything-you-need-to-know/> (django + vue)
