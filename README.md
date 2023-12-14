@@ -1,5 +1,5 @@
-# 序言
-- [关于科学上网的一切](./markdown/v2ray.md)
+[关于科学上网的一切](./markdown/v2ray.md)
+
 >Windows 是工作
 >
 >Mac 是生活
