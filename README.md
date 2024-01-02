@@ -56,3 +56,4 @@
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
 * <https://codewithstein.com/combining-django-and-vuejs-everything-you-need-to-know/> (django + vue)
+* <https://github.com/acmesh-official/acme.sh> (HTTPS证书申请脚本）
