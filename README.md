@@ -27,6 +27,7 @@
 - <https://github.com/IENT/YUView> [YUV文件查看工具]
 - <https://github.com/CorentinTh/it-tools> [好用的 IT 工具箱]
 - <https://github.com/acmesh-official/acme.sh> (HTTPS证书申请脚本）
+- <https://github.com/danielmiessler/SecLists/tree/master> (渗透测试 密码表）
 # 第三方
 - <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
