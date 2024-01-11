@@ -128,7 +128,7 @@ vnstat 配置文件 /etc/vnstat.conf 这里面默认每月 1 号开始统计所�
 - <https://naiyovpn.com/> 唯云四杰之一
 
 注意识别跑路风险
-- <https://mxwljsq.top/>
+- <http://mxwljsq.top/>
 - <https://moriyun.vip/>
 
 # 其他
