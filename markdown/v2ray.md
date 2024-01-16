@@ -14,22 +14,21 @@
 客户端
 - https://github.com/2dust/v2rayN [Windows]
 - https://github.com/2dust/v2rayNG [Android]
-- https://apps.apple.com/ca/app/shadowrocket/id932747118 [Shadowrocket (美区账号 付费应用)]
-- <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
+- https://apps.apple.com/ca/app/shadowrocket/id932747118 [IOS Shadowrocket (美区账号 付费应用)]
+
 
 # trojan
 trojan 项目：<https://github.com/trojan-gfw/trojan>
-
-trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，v2ray 社区的活跃显得难能可贵
-
 - <https://github.com/Jrohy/trojan> [持续维护]
 - <https://github.com/atrandys/trojan> [已经停更]
+trojan 本质也是 TLS 加密模拟互联网常见的 HTTPS。
+trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，V2ray 社区的活跃显得难能可贵
 
 # BBR 
-```wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh```
-
-已成历史，只作为了解，现在的 Linux 发行版本都已经自带了，无需额外安装
-
+```
+wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
+```
+算是已成历史：现在的 Linux 都自带了 BBR，只是需要手动开启罢了，这是存在于大约 2020 年以前的 Linux （具体不确定）。
 # V2ray 摘要
 Project V 是项目，V2ray 是该项目的产物（工具）。严格意义上来说，V2ray 只代表内核，不具备翻墙能力，但大家叫习惯了，
 所以 V2ray = Project V。Project V 支持许多协议（这些协议正是我们跨过 GFW 的核心）。
@@ -62,7 +61,6 @@ V2ray 和 Xray 可以比喻成两个党派，V2ray 是保守派，Xray 是激进
 相比于其他单打独斗的开发者，V2ray 最大的成功就是真正意义上激活了社区，作为 V2ray 最早的见证者，一路走来没有倒下，真是令人惊讶。
 
 Xray 提出了一些新的翻墙解决方案，这些方案理论上来说更为安全，甚至达到了完全欺骗，安全性极高! 对于追求绝对安全的人来讲，必然优先考虑 Xray 而非 V2ray
-
 # 服务器 && 机场 (所有机场都应该考虑风险)
 唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险！只能说相对而言少很多，机场专线，品质最佳，不差钱建议直接买。
 
@@ -79,8 +77,8 @@ Xray 提出了一些新的翻墙解决方案，这些方案理论上来说更为
 - <https://moriyun.vip/>
 - <https://www.microcloud.cc/index.php?rp=/store/azure-hk> 
 # 其他
+- <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
 - <https://github.com/yonggekkk/warp-yg> [解锁奈飞 ChatGPT]
-# 彩蛋
 - <https://github.com/The-Run-Philosophy-Organization/run> [润学]
