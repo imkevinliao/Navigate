@@ -81,8 +81,10 @@ echo 'kevin:123456' | sudo chpasswd
 sudo sed -i '52c PasswordAuthentication yes' /etc/ssh/sshd_config
 sudo service sshd restart
 sudo sed -i '20a kevin    ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
-sudo apt install vnstat
 ```
+
+`sudo apt install vnstat`
+
 aws lightsail 超流量自动关机 参考网址：
 - https://fmk.im/p/shutdown-aws/
 - https://zset.cc/archives/25/
