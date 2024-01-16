@@ -49,12 +49,6 @@ Linux 是热爱
 - <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版][MacOS]
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
 - <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
-# ChatGPT
-- <https://chat.openai.com/> [官方]
-- <https://chatbot.theb.ai/> [free 3.5 charge 4]
-- <https://www.forefront.ai/app/chat/new>[free 3.5 charge 4]
-- <https://ora.ai/openai/chatgpt>[free 3 charge 4]
-- <https://github.com/LiLittleCat/awesome-free-chatgpt> (chatgpt 镜像列表)
 # 拓展
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
 * <https://codewithstein.com/combining-django-and-vuejs-everything-you-need-to-know/> (django + vue)
