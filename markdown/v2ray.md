@@ -80,5 +80,4 @@ Xray 提出了一些新的翻墙解决方案，这些方案理论上来说更为
 - <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
-- <https://github.com/yonggekkk/warp-yg> [解锁奈飞 ChatGPT]
 - <https://github.com/The-Run-Philosophy-Organization/run> [润学]
