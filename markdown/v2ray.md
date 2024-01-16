@@ -1,7 +1,7 @@
 # V2ray Or Xray | Bright Future
 分支（两大分支）
 - 官网(V2ray)：<https://www.v2fly.org/> Github 地址：<https://github.com/v2fly/v2ray-core> 
-- 官网(Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
+- 官网( Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
 
 脚本
 - https://github.com/Jrohy/multi-v2ray [推荐]
@@ -14,19 +14,24 @@
 - https://github.com/2dust/v2rayNG [Android]
 - https://apps.apple.com/ca/app/shadowrocket/id932747118 [IOS Shadowrocket (美区账号 付费应用)]
 
-
-# trojan
-trojan 项目：<https://github.com/trojan-gfw/trojan>
-- <https://github.com/Jrohy/trojan> [持续维护]
-- <https://github.com/atrandys/trojan> [已经停更]
-trojan 本质也是 TLS 加密模拟互联网常见的 HTTPS。
-trojan 项目主力开发者已经停更很久了，诚然，trojan 虽然完全可以使用，但随着主力开发者的退场，基本停滞，相比之下，V2ray 社区的活跃显得难能可贵
-
-# BBR 
+# Trojan [正在成为历史]
+- <https://github.com/trojan-gfw/trojan> [项目地址]
+- <https://github.com/Jrohy/trojan> [脚本-持续维护]
+- <https://github.com/atrandys/trojan> [脚本-已经停更]
+Trojan 项目主力开发者已经停更很久了，诚然，Trojan 仍然可以使用，但随着主力开发者的退场，已经停滞，不建议使用
+# SSR && SS [已经成为历史]
+```
+SS 算是翻墙鼻祖，作者被请去喝茶后，诞生了 SSR
+SS 已经完全可以被 GFW 识别，SSR 基本上可以被 GFW 识别。
+额外提一下：仍然有大量使用 SSR 的，原因较为复杂，但安全性非常差，使用 SSR 就约等于，
+你告诉 GFW：我在使用科学上网
+GFW 告诉你：收到！但是我最近不太想封你，等敏感时期再封吧，哦，心情不好也封一下吧。
+```
+# BBR [已成历史]
 ```
 wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
 ```
-算是已成历史：现在的 Linux 都自带了 BBR，只是需要手动开启罢了，这是存在于大约 2020 年以前的 Linux （具体不确定）。
+现在的 Linux 都自带了 BBR，只是需要手动开启。千万不要再使用 BBR 这类脚本去安装内核，因为这类脚本都很古老了，安装大概率是反向升级。
 # V2ray 摘要
 Project V 是项目，V2ray 是该项目的产物（工具）。严格意义上来说，V2ray 只代表内核，不具备翻墙能力，但大家叫习惯了，
 所以 V2ray = Project V。Project V 支持许多协议（这些协议正是我们跨过 GFW 的核心）。
