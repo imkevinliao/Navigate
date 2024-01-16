@@ -1,9 +1,7 @@
 # V2ray Or Xray | Bright Future
 分支（两大分支）
-- https://github.com/v2fly/v2ray-core [Project V2ray]
-- https://github.com/XTLS/Xray-core [Project Xray]
-- <https://www.v2fly.org/> V2ray 社区官网 
-- <https://xtls.github.io/> Xray 官方网站 [Xray 与 V2ray 理念不合 自立门户] 
+- 官网(V2ray)：<https://www.v2fly.org/> Github 地址：<https://github.com/v2fly/v2ray-core> 
+- 官网(Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
 
 脚本
 - https://github.com/Jrohy/multi-v2ray [推荐]
