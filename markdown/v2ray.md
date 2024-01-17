@@ -12,7 +12,7 @@
 - 官网(V2ray)：<https://www.v2fly.org/> Github 地址：<https://github.com/v2fly/v2ray-core> 
 - 官网( Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
 
-脚本
+## 脚本
 - https://github.com/Jrohy/multi-v2ray （推荐：自定义类型丰富）
 - https://github.com/mack-a/v2ray-agent
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
@@ -22,7 +22,7 @@
 不过脚本本身适合小白，而且对大部分人来说，那些网站确实不会访问。尽管从来不访问，但是我仍然拒绝这种禁止我选择权力的脚本。
 由于是以前发现的，不清楚现在是否依然封禁，因为自那以后，我就再也不用了。
 
-客户端
+## 客户端
 - https://github.com/2dust/v2rayN [Windows]
 - https://github.com/2dust/v2rayNG [Android]
 - https://apps.apple.com/ca/app/shadowrocket/id932747118 [IOS Shadowrocket (美区账号 付费应用)]
