@@ -45,6 +45,28 @@ GFW 告诉你：收到！但是我最近不太想封你，等敏感时期再封�
 wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
 ```
 现在的 Linux 都自带了 BBR，只是需要手动开启。千万不要再使用 BBR 这类脚本去安装内核，因为这类脚本都很古老了，安装大概率是反向升级。
+
+# 服务器 && 机场 (所有机场都应该考虑风险)
+唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险！只能说相对而言少很多，机场专线，品质最佳，不差钱建议直接买。
+
+衡量一家优质机场的标准：
+1. 域名是否以 .com 结尾，以 .com 结尾且域名与机场名相关有一定意义且在 8 个纯英文字母以内的域名（请理解限定条件），年费并不低
+2. 机场是否有 IPLC 专线，专线可以绕过防火墙直连，不存在 QoS 限速。有专线，域名必定以 .com 结尾，专线费用更昂贵，正常情况下买得起专线不可能省域名的钱
+3. 机场存在年限，年限越长越好
+4. 机场网站页面是否是单独开发，中小机场一般是使用机场模板搭建，有实力的机场是单独开发
+
+- <https://duangks.com/> 机场资讯
+- <https://nxboom.com/> 唯云四杰之首
+- <https://naiyovpn.com/> 唯云四杰之一
+- <http://mxwljsq.top/>
+- <https://moriyun.vip/>
+- <https://www.microcloud.cc/index.php?rp=/store/azure-hk> 
+# 其他
+- <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
+- <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
+- <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
+- <https://github.com/The-Run-Philosophy-Organization/run> [润学]
+
 # V2ray 摘要
 Project V 是项目，V2ray 是该项目的产物（工具）。严格意义上来说，V2ray 只代表内核，不具备翻墙能力，但大家叫习惯了，
 所以 V2ray = Project V。Project V 支持许多协议（这些协议正是我们跨过 GFW 的核心）。
@@ -77,23 +99,3 @@ V2ray 和 Xray 可以比喻成两个党派，V2ray 是保守派，Xray 是激进
 相比于其他单打独斗的开发者，V2ray 最大的成功就是真正意义上激活了社区，作为 V2ray 最早的见证者，一路走来没有倒下，真是令人惊讶。
 
 Xray 提出了一些新的翻墙解决方案，这些方案理论上来说更为安全，甚至达到了完全欺骗，安全性极高! 对于追求绝对安全的人来讲，必然优先考虑 Xray 而非 V2ray
-# 服务器 && 机场 (所有机场都应该考虑风险)
-唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险！只能说相对而言少很多，机场专线，品质最佳，不差钱建议直接买。
-
-衡量一家优质机场的标准：
-1. 域名是否以 .com 结尾，以 .com 结尾且域名与机场名相关有一定意义且在 8 个纯英文字母以内的域名（请理解限定条件），年费并不低
-2. 机场是否有 IPLC 专线，专线可以绕过防火墙直连，不存在 QoS 限速。有专线，域名必定以 .com 结尾，专线费用更昂贵，正常情况下买得起专线不可能省域名的钱
-3. 机场存在年限，年限越长越好
-4. 机场网站页面是否是单独开发，中小机场一般是使用机场模板搭建，有实力的机场是单独开发
-
-- <https://duangks.com/> 机场资讯
-- <https://nxboom.com/> 唯云四杰之首
-- <https://naiyovpn.com/> 唯云四杰之一
-- <http://mxwljsq.top/>
-- <https://moriyun.vip/>
-- <https://www.microcloud.cc/index.php?rp=/store/azure-hk> 
-# 其他
-- <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
-- <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
-- <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
-- <https://github.com/The-Run-Philosophy-Organization/run> [润学]
