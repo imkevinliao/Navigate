@@ -1,4 +1,3 @@
-# 序章
 [科学上网](./markdown/v2ray.md)
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io>
