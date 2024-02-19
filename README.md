@@ -28,6 +28,7 @@ Linux 是热爱
 - <https://github.com/CorentinTh/it-tools> [好用的 IT 工具箱]
 - <https://github.com/acmesh-official/acme.sh> (HTTPS证书申请脚本）
 - <https://github.com/danielmiessler/SecLists/tree/master> (渗透测试 密码表）
+- <https://github.com/SuperManito/LinuxMirrors?tab=readme-ov-file> (linux 一键换源)
 # 第三方
 - <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
@@ -46,7 +47,7 @@ Linux 是热爱
 - <https://github.com/PyQt5/PyQt> [PyQt 学习指南]
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> [PyQt 学习 讲解细致 有配套源码]
 # APP
-- <https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版][MacOS][版权原因 仓库已被 Github 移除]
+- ~~<https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> [虚拟机 parallels 破解版][MacOS][版权原因 仓库已被 Github 移除]~~
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> [应用推荐][IOS]
 - <https://github.com/gedoor/legado>[阅读 最好的阅读器][Android]
 # 拓展
