@@ -1,10 +1,5 @@
 # 序章
-[关于科学上网的一切](./markdown/v2ray.md)
-```
-Windows 是工作
-Mac 是生活
-Linux 是热爱
-```
+[科学上网](./markdown/v2ray.md)
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io>
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
