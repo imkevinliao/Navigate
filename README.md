@@ -47,4 +47,5 @@
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
 * <https://codewithstein.com/combining-django-and-vuejs-everything-you-need-to-know/> (django + vue)
 * <https://github.com/LiLittleCat/awesome-free-chatgpt> (free chatgpt mirror)
+* <https://codeimg.io/> (在线code转img)
 
