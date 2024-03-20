@@ -13,14 +13,11 @@
 - 官网( Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
 
 ## 脚本
-- https://github.com/Jrohy/multi-v2ray （推荐：自定义类型丰富）
-- https://github.com/mack-a/v2ray-agent
+- https://github.com/Jrohy/multi-v2ray （自定义丰富）
+- https://github.com/mack-a/v2ray-agent （推荐）
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
-- https://github.com/233boy/v2ray/tree/master （推荐：适合新手小白 【见下面注释】）
-- 
-注释：由于作者在脚本中私自修改配置文件，禁止了部分网站的访问，个人不太喜欢这种，虽然我本身不访问那些网站（法轮功类），但是我并不喜欢这种干涉他人选择的行为。
-不过脚本本身适合小白，而且对大部分人来说，那些网站确实不会访问。尽管从来不访问，但是我仍然拒绝这种禁止我选择权力的脚本。
-由于是以前发现的，不清楚现在是否依然封禁，因为自那以后，我就再也不用了。
+- https://github.com/233boy/v2ray/tree/master （推荐：适合新手小白 ）
+- https://github.com/wulabing/Xray_onekey
 
 ## 客户端
 - https://github.com/2dust/v2rayN [Windows]
