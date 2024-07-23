@@ -23,6 +23,7 @@
 - <https://github.com/danielmiessler/SecLists/tree/master> (渗透测试 密码表）
 - <https://github.com/SuperManito/LinuxMirrors?tab=readme-ov-file> (linux 一键换源)
 - <https://github.com/soimort/you-get> Python 下载视频
+- <https://github.com/AUTOMATIC1111/stable-diffusion-webui>  自行本地部署 大模型图片生成
 # 第三方
 - <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
