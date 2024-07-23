@@ -1,13 +1,12 @@
-[科学上网](./markdown/v2ray.md)
 # Pied Piper * 魔笛手
 - <https://github.com/imkevinliao/imkevinliao.github.io>
 - <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
 - <https://github.com/imkevinliao/PythonDocs> [Python Note]
 - <https://github.com/imkevinliao/GolangDocs> [Golang Note]
 # 个人项目
-- <https://github.com/imkevinliao/crypto> [加密工具]
-- <https://github.com/imkevinliao/yuv2rgb> [YUV转RGB工具]
-- <https://imkevinliao.github.io/convert/> [获取 Github Raw URL]
+- <https://github.com/imkevinliao/crypto> [软件加密]
+- <https://github.com/imkevinliao/yuv2rgb> [YUV 转 RGB]
+- <https://imkevinliao.github.io/convert/> [Get Github Raw URL]
 - ~~<https://github.com/imkevinliao/net_speed_check> [服务器测速（真实网速）不实用]~~
 - ~~<https://github.com/imkevinliao/stock> [直接使用Akshare API更为方便 二次封装显得多余]~~
 # Github
@@ -23,6 +22,7 @@
 - <https://github.com/acmesh-official/acme.sh> (HTTPS证书申请脚本）
 - <https://github.com/danielmiessler/SecLists/tree/master> (渗透测试 密码表）
 - <https://github.com/SuperManito/LinuxMirrors?tab=readme-ov-file> (linux 一键换源)
+- <https://github.com/soimort/you-get> Python 下载视频
 # 第三方
 - <https://www.voidtools.com/zh-cn/> [文件搜索查找工具]
 - <https://www.faststone.org/> [看图]
