@@ -1,8 +1,8 @@
 # Navigate
-- <https://github.com/imkevinliao/imkevinliao.github.io> WebSite
-- <https://github.com/imkevinliao/UbuntuDocs> Ubuntu Note
-- <https://github.com/imkevinliao/PythonDocs> Python Note
-- <https://github.com/imkevinliao/GolangDocs> Golang Note
+- <https://github.com/imkevinliao/imkevinliao.github.io>
+- <https://github.com/imkevinliao/UbuntuDocs>
+- <https://github.com/imkevinliao/PythonDocs>
+- <https://github.com/imkevinliao/GolangDocs>
 # Public Repository
 - <https://imkevinliao.github.io/convert/> Get Github Raw URL
 - <https://github.com/imkevinliao/crypto> 软件加密
