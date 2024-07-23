@@ -35,7 +35,7 @@
 - <https://jianwai.youdao.com/index/0> 网易见外 视频剪辑
 - <https://www.advancedrenamer.com/> 重命名工具
 # 学习
-- Flask and Django 系列(./markdown/website.md)
+- [Flask and Django 系列](./markdown/website.md)
 - <https://github.com/huataihuang/cloud-atlas> 云计算学习
 - <https://github.com/yeasy/docker_practice> Docker教程
 - <https://github.com/KeKe-Li/For-learning-Go-Tutorial> Go 语言学习指南
