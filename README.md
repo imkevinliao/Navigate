@@ -1,8 +1,8 @@
 # Navigate
 - <https://github.com/imkevinliao/imkevinliao.github.io> WebSite
-- <https://github.com/imkevinliao/UbuntuDocs> [Ubuntu Note]
-- <https://github.com/imkevinliao/PythonDocs> [Python Note]
-- <https://github.com/imkevinliao/GolangDocs> [Golang Note]
+- <https://github.com/imkevinliao/UbuntuDocs> Ubuntu Note
+- <https://github.com/imkevinliao/PythonDocs> Python Note
+- <https://github.com/imkevinliao/GolangDocs> Golang Note
 # 个人项目
 - <https://github.com/imkevinliao/crypto> [软件加密]
 - <https://github.com/imkevinliao/yuv2rgb> [YUV 转 RGB]
