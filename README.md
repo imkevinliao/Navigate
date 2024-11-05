@@ -45,10 +45,11 @@
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> PyQt 学习 讲解细致 有配套源码
 # 拓展
 - ~~<https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> 虚拟机 parallels 破解版MacOS版权原因 仓库已被 Github 移除~~
-- <https://github.com/dkhamsing/open-source-ios-apps#terminal> 应用推荐IOS
-- <https://github.com/gedoor/legado>阅读 最好的阅读器Android
+- <https://github.com/dkhamsing/open-source-ios-apps#terminal> ISO 应用推荐
+- <https://github.com/gedoor/legado> 最好的安卓阅读器（IOS版权原因无法上架·可惜）
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
 * <https://codewithstein.com/combining-django-and-vuejs-everything-you-need-to-know/> (django + vue)
-* <https://github.com/LiLittleCat/awesome-free-chatgpt> (free chatgpt mirror)
-* <https://codeimg.io/> (在线code转img)
+* <https://github.com/LiLittleCat/awesome-free-chatgpt> 免费 ChatGPT 镜像
+* <https://codeimg.io/> 效率工具：在线代码转图片
+* <https://excalidraw.com/> 效率工具：在线绘图
 
