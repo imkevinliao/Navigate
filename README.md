@@ -45,6 +45,7 @@
 - <https://www.youtube.com/watch?v=Z1N9JzNax2k> PyQt 学习 讲解细致 有配套源码
 # 拓展
 - ~~<https://github.com/andrewssobral/parallels_desktop_crack_18.0.1-53056> 虚拟机 parallels 破解版MacOS版权原因 仓库已被 Github 移除~~
+- <https://appstorrent.ru/> Mac Adobe
 - <https://github.com/dkhamsing/open-source-ios-apps#terminal> ISO 应用推荐
 - <https://github.com/gedoor/legado> 最好的安卓阅读器（IOS版权原因无法上架·可惜）
 * <https://github.com/mmumshad/simple-webapp-flask> (simple Flask with Dockerfile demo)
