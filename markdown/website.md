@@ -10,3 +10,6 @@
 # Django
 - <https://github.com/welliamcao/OpsManage> [django 项目实例]
 - <https://github.com/HuQi2018/BiSheServer> [django 项目示例]
+
+# FastAPI
+- <https://github.com/Relph1119/fastapi-learning-notes?tab=readme-ov-file> [fastapi 教程]
