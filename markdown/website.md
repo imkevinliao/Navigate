@@ -13,3 +13,4 @@
 
 # FastAPI
 - <https://github.com/Relph1119/fastapi-learning-notes?tab=readme-ov-file> [fastapi 教程]
+- <https://github.com/mjhea0/awesome-fastapi?tab=readme-ov-file#projects> [项目集]
