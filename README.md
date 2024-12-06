@@ -3,7 +3,8 @@
 - <https://github.com/imkevinliao/UbuntuDocs>
 - <https://github.com/imkevinliao/PythonDocs>
 - <https://github.com/imkevinliao/GolangDocs>
-- <https://github.imkevinliao.workers.dev/> Github 国内加速
+- <https://github.imkevinliao.workers.dev/> Github 国内加速（cloudflare托管）
+- <https://ip-95g.pages.dev/>  基于IP地址生成真实地址（cloudflare托管） [source](https://github.com/imkevinliao/AddressFromIP/tree/main) 
 # Public Repository
 - <https://imkevinliao.github.io/convert/> Get Github Raw URL
 - <https://github.com/imkevinliao/crypto> 软件加密
