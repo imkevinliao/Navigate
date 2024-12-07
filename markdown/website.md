@@ -12,5 +12,7 @@
 - <https://github.com/HuQi2018/BiSheServer> [django 项目示例]
 
 # FastAPI
-- <https://github.com/Relph1119/fastapi-learning-notes?tab=readme-ov-file> [fastapi 教程]
-- <https://github.com/mjhea0/awesome-fastapi?tab=readme-ov-file#projects> [项目集]
+- <https://github.com/Relph1119/fastapi-learning-notes?tab=readme-ov-file> fastapi 教程
+- <https://github.com/mjhea0/awesome-fastapi?tab=readme-ov-file#projects> 项目集
+
+- <https://github.com/liaogx/fastapi-tutorial> <https://www.imooc.com/learn/1299> code and video
