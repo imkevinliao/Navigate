@@ -55,5 +55,9 @@
 * <https://github.com/LiLittleCat/awesome-free-chatgpt> 免费 ChatGPT 镜像
 * <https://codeimg.io/> 效率工具：在线代码转图片
 * <https://excalidraw.com/> 效率工具：在线绘图
+
+# 其他
+* [科学上网 简谈](./markdown/v2ray.md)
+* [望舒语录](./markdown/wangshu.md)
 # 鸣谢
 感谢 cloudflare 大善人 （无论出于何种目的，利用边缘网络提供给个人用户免费使用的行为，还是很不错的）
