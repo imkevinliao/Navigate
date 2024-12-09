@@ -1,16 +1,17 @@
 # Navigate
-- <https://github.com/imkevinliao/imkevinliao.github.io>
-- <https://github.com/imkevinliao/UbuntuDocs>
-- <https://github.com/imkevinliao/PythonDocs>
-- <https://github.com/imkevinliao/GolangDocs>
+- <https://github.com/imkevinliao/imkevinliao.github.io> 个人博客·网站
+- <https://github.com/imkevinliao/UbuntuDocs> Linux(主要是 Ubuntu 的一些相关记录)
+- <https://github.com/imkevinliao/PythonDocs> Python 编程的相关内容
+- <https://github.com/imkevinliao/GolangDocs> Golang 编程的相关内容
+  
 - <https://github.imkevinliao.workers.dev/> Github 国内加速（cloudflare托管）
-- <https://ip-95g.pages.dev/>  基于IP地址生成真实地址（cloudflare托管） [source](https://github.com/imkevinliao/AddressFromIP/tree/main) 
+- <https://ip-95g.pages.dev/>  基于IP地址生成真实地址（cloudflare托管） [源码](https://github.com/imkevinliao/AddressFromIP/tree/main) 
 # Public Repository
 - <https://imkevinliao.github.io/convert/> Get Github Raw URL
-- <https://github.com/imkevinliao/crypto> 软件加密
-- <https://github.com/imkevinliao/yuv2rgb> YUV 转 RGB
+- <https://github.com/imkevinliao/crypto> 自制的加密软件
+- <https://github.com/imkevinliao/yuv2rgb> YUV 转 RGB （图像转换） 
 - <https://github.com/imkevinliao/net_speed_check> ~~服务器测速 不实用~~
-- <https://github.com/imkevinliao/stock> ~~直接使用 Akshare API 更为方便 过度封装~~
+- <https://github.com/imkevinliao/stock> ~~建议直接使用 Akshare API 更为方便 （过度封装）~~
 # Github
 - <https://github.com/zbezj/HEU_KMS_Activator> Windows Office 激活
 - <https://github.com/hellzerg/optimizer> Windows 优化
