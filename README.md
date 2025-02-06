@@ -3,7 +3,7 @@
 - <https://github.com/imkevinliao/UbuntuDocs> Linux(主要是 Ubuntu 的一些相关记录)
 - <https://github.com/imkevinliao/PythonDocs> Python 编程的相关内容
 - <https://github.com/imkevinliao/GolangDocs> Golang 编程的相关内容
-- <https://github.com/imkevinliao/chinese-poetry-sqlite> 中华文化持久化
+- <https://github.com/imkevinliao/chinese-poetry-sqlite> 中华文化持久化（fastapi orm）
 - <https://github.com/imkevinliao/xray_reality_docker> xray-docker
 - <https://github.com/imkevinliao/noname_docker> noname-docker
   
