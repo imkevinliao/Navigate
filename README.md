@@ -1,6 +1,6 @@
 # Navigate
 - <https://github.com/imkevinliao/imkevinliao.github.io> 个人博客·网站
-- <https://github.com/imkevinliao/ubuntu-docs> Linux(主要是 Ubuntu 的一些相关记录)
+- <https://github.com/imkevinliao/ubuntu-docs> Ubuntu Docs
 - <https://github.com/imkevinliao/PythonDocs> Python 编程的相关内容
 - <https://github.com/imkevinliao/GolangDocs> Golang 编程的相关内容
 - <https://github.com/imkevinliao/chinese-poetry-sqlite> 中华文化持久化（fastapi orm）
