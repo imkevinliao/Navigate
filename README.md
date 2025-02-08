@@ -59,8 +59,8 @@
 * <https://codeimg.io/> 效率工具：在线代码转图片
 * <https://excalidraw.com/> 效率工具：在线绘图
 
-# 其他
-* [科学上网 简谈](./markdown/v2ray.md)
+# markdown
+* [科学上网 服务器评测](./markdown/v2ray.md)
 * [望舒语录](./markdown/wangshu.md)
 * [微信对话生成器](https://wechat.sxcto.com/)
 # 鸣谢
