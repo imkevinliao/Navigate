@@ -86,7 +86,6 @@ bash <(curl -Lso- https://bench.im/hyperspeed)
 3. 机场存在年限，年限越长越好
 4. 机场网站页面是否是单独开发，中小机场一般是使用机场模板搭建，有实力的机场是单独开发
 
-- 
 # 其他
 - <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
