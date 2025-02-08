@@ -7,16 +7,26 @@
 - 官网( Xray )：<https://xtls.github.io/> Github 地址：<https://github.com/XTLS/Xray-core>
 
 ## 脚本
+v2ray/xray:
 - https://github.com/Jrohy/multi-v2ray （自定义丰富）
 - https://github.com/mack-a/v2ray-agent （推荐）
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
 - https://github.com/233boy/v2ray/tree/master （推荐：适合新手小白 ）
 - https://github.com/wulabing/Xray_onekey
 
+Hysteria:
+- https://github.com/Misaka-blog/hysteria-install
+- https://github.com/ReturnFI/Hysteria2/tree/main  (>Ubuntu22.04)
+- https://github.com/emptysuns/Hi_Hysteria (Most Star)
+
 ## 客户端
 - https://github.com/2dust/v2rayN [Windows]
 - https://github.com/2dust/v2rayNG [Android]
 - https://apps.apple.com/ca/app/shadowrocket/id932747118 [IOS Shadowrocket (美区账号 付费应用)]
+
+IOS 只推荐小火箭（简单易用）
+
+安卓：v2rayng clash nekobox hiddify 挺多的 （v2rayng 用的最多，clash 听的最多）
 
 # Trojan [正在成为历史]
 - <https://github.com/trojan-gfw/trojan> [项目地址]
@@ -100,19 +110,6 @@ cpu 大概单核 1000 分左右，多核心 8000 分左右
 # 小火箭规则
 - Shadowrocket 分流规则 https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
 - Shadowrocket 分流规则 https://github.com/GMOogway/shadowrocket-rules
-
-# 科学上网主要脚本
-- https://github.com/mack-a/v2ray-agent
-- https://github.com/Jrohy/multi-v2ray
-- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
-- https://github.com/233boy/v2ray/tree/master
-- https://github.com/wulabing/Xray_onekey
-
-Hysteria:
-- https://github.com/Misaka-blog/hysteria-install
-- https://github.com/ReturnFI/Hysteria2/tree/main  (>Ubuntu22.04)
-- https://github.com/emptysuns/Hi_Hysteria (Most Star)
-
 
 # ACME (申请证书）
 - ACME https://github.com/acmesh-official/acme.sh.git
