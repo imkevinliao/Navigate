@@ -77,6 +77,53 @@ bash <(curl -Lso- https://bench.im/hyperspeed)
 ## 测速说明
 对于单个用户，服务器单线程测速才有实际意义，多线程实际上没有用，科学上网之类的看的是单线程
 
+# 服务器压力测试
+apt install sysbench -y
+
+sysbench cpu run 压力测试（主要看单核和多核分数） 
+
+sysbench cpu --threads=4 run （threads 最好和 core 一样，这样更准确些）
+
+读写测试(测试随机读写)
+```bash
+sysbench fileio --file-total-size=1G prepare && \
+sysbench fileio --file-total-size=1G --file-test-mode=rndrw run && \
+sysbench fileio cleanup
+```
+
+VPS测试参数参考：
+
+cpu 大概单核 1000 分左右，多核心 8000 分左右
+
+磁盘读写：大概在 10Mib/s 左右
+
+# 小火箭规则
+- Shadowrocket 分流规则 https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
+- Shadowrocket 分流规则 https://github.com/GMOogway/shadowrocket-rules
+
+# 科学上网主要脚本
+- https://github.com/mack-a/v2ray-agent
+- https://github.com/Jrohy/multi-v2ray
+- https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
+- https://github.com/233boy/v2ray/tree/master
+- https://github.com/wulabing/Xray_onekey
+
+Hysteria:
+- https://github.com/Misaka-blog/hysteria-install
+- https://github.com/ReturnFI/Hysteria2/tree/main  (>Ubuntu22.04)
+- https://github.com/emptysuns/Hi_Hysteria (Most Star)
+
+
+# ACME (申请证书）
+- ACME https://github.com/acmesh-official/acme.sh.git
+
+# 一键删除平台监控
+一键移除大多数云服务器监控  涵盖阿里云、腾讯云、华为云、UCLOUD、甲骨文云、京东云
+```
+curl -L https://raw.githubusercontent.com/spiritLHLS/one-click-installation-script/main/install_scripts/dlm.sh -o dlm.sh && chmod +x dlm.sh && bash dlm.sh
+```
+
+
 # 服务器 && 机场 (所有机场都应该考虑风险)
 唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险！只能说相对而言少很多，机场专线，品质最佳，不差钱建议直接买。
 
