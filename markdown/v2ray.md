@@ -1,12 +1,6 @@
 # 科学上网
-科学上网途径主要有三种：自建，机场，VPN （这里需要稍微说明一下，真正的 VPN 本质并不能翻墙，因为它会告诉防火墙你要访问哪个网站。而我们叫习惯了也就不再做区分了)
+跨越长城
 
-自建机场要求较为严格：
-1. 具有理工计算机软件的背景
-2. 使用 Linux 时间超过 240 小时
-3. 了解 GFW 的发展史
-4. 具备自主分析解决问题的能力
-5. 最好具有建站经历
 # V2ray Or Xray | Bright Future
 分支（两大分支）
 - 官网(V2ray)：<https://www.v2fly.org/> Github 地址：<https://github.com/v2fly/v2ray-core> 
@@ -30,18 +24,12 @@
 - <https://github.com/atrandys/trojan> [脚本-已经停更]
 Trojan 项目主力开发者已经停更很久了，诚然，Trojan 仍然可以使用，但随着主力开发者的退场，已经停滞，不建议使用
 # SSR && SS [已经成为历史]
-```
-SS 算是翻墙鼻祖，作者被请去喝茶后，诞生了 SSR
-SS 已经完全可以被 GFW 识别，SSR 基本上可以被 GFW 识别。
-额外提一下：仍然有大量使用 SSR 的，原因较为复杂，但安全性非常差，使用 SSR 就约等于，
-你告诉 GFW：我在使用科学上网
-GFW 告诉你：收到！但是我最近不太想封你，等敏感时期再封吧，哦，心情不好也封一下吧。
-```
-# BBR [已成历史]
+
+# BBR
 ```
 wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
 ```
-现在的 Linux 都自带了 BBR，只是需要手动开启。千万不要再使用 BBR 这类脚本去安装内核，因为这类脚本都很古老了，安装大概率是反向升级。
+现在的 Linux 都自带了 BBR，只是需要手动开启，如果是脚本也只需要开启，不要安装内核。
 
 # 服务器 && 机场 (所有机场都应该考虑风险)
 唯云四杰算是顶尖机场，但也不意味着就完全没有跑路风险！只能说相对而言少很多，机场专线，品质最佳，不差钱建议直接买。
@@ -64,35 +52,49 @@ wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
 - <https://github.com/The-Run-Philosophy-Organization/run> [润学]
 
-# V2ray 摘要
-Project V 是项目，V2ray 是该项目的产物（工具）。严格意义上来说，V2ray 只代表内核，不具备翻墙能力，但大家叫习惯了，
-所以 V2ray = Project V。Project V 支持许多协议（这些协议正是我们跨过 GFW 的核心）。
+# X-UI 面板
+注意不要使用 http 裸奔（安装面板后第一时间 启用https域名访问）
 
-VMess VLess 是 V2ray 官方标准协议，其中 vless 是对 vmess 的升级，vmess 成为历史是必然
+- X-UI 科学上网 https://github.com/vaxilu/x-ui
+- X-UI 继任者(3x-ui) https://github.com/MHSanaei/3x-ui
+- X-UI 继任者(x-ui) https://github.com/qist/xray-ui 
 
-如果你使用的是 VMess 协议请务必确保服务器时间与你自己的本地时间相同（时区一致）
+# 流媒体
+- 流媒体检测 https://github.com/lmc999/RegionRestrictionCheck.git
+- warp 解锁流媒体 https://github.com/yonggekkk/warp-yg.git
+```shell
+bash <(curl -L -s check.unlock.media)
+```
+# IP质量检测
+- https://github.com/xykt/IPQuality
+```shell
+bash <(curl -sL IP.Check.Place)
+```
 
-VMess 协议如果服务端与客户端时间不一致，会导致无法使用！VLess 则改进了这一点（无需时间一致）
+# 路由检测
+- https://github.com/zhanghanyun/backtrace
+- https://github.com/nxtrace/NTrace-core?tab=readme-ov-file
+```shell
+curl nxtrace.org/nt | bash
+# 本地测试：nexttrace --table ip[服务器ip地址]
+# 服务器测试回程路由：nexttrace --fast-trace
+```
+```shell
+curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh
+```
 
-无论 VMess 和 VLess 对于 GFW 都属于透明存在，被直接识别
+# 服务器测速
+- https://github.com/spiritLHLS/ecs  (推荐 融合怪)
+- https://github.com/i-abc/Speedtest
+```shell
+bash <(wget -qO- bash.spiritlhl.net/ecs)
+```
+```shell
+bash <(curl -sL bash.icu/speedtest)
+```
+```shell
+bash <(curl -Lso- https://bench.im/hyperspeed)
+```
+## 测速说明
+对于单个用户，服务器单线程测速才有实际意义，多线程实际上没有用，科学上网之类的看的是单线程
 
-互联网所有开启 HTTPS 的网站，都使用 TLS 加密数据，所以套用 TLS 加密保证安全。
-
-常规方案：（存在一定被识别风险）
-1. vless + tcp + tls （推荐）
-2. vless + websocket + tls
-
-这里需要指出：被识别绝对不是因为你的 TLS 数据被破解，而是其他的流量特征分析（例如大量流量访问同一个国外IP，显然不正常），或者你的 IP 上一个使用者不正常使用。
-
-总之，绝对不可能是 TLS 的问题，因为如果 TLS 被破译，那么整个互联网都要面临安全问题。
-
-如果担心被识别，可以套 CDN，这样几乎不可能被封禁，但是，速度可能会受到很大影响，我自己是不适用的，因为 IP 被封就换一个好了。
-
-由于社区争议，V2ray 分成了两拨人，一波继续维护 V2ray 内核，另一波开发了 Xray 内核
-
-Xray 是 V2ray 的超集，你可以简单理解为，Xray 兼容 V2ray 但它有更多自己的特性，这些特性 V2ray 不具备，有些翻墙软件并不支持 Xray，不愿意折腾请使用 V2ray。
-
-V2ray 和 Xray 可以比喻成两个党派，V2ray 是保守派，Xray 是激进派。
-相比于其他单打独斗的开发者，V2ray 最大的成功就是真正意义上激活了社区，作为 V2ray 最早的见证者，一路走来没有倒下，真是令人惊讶。
-
-Xray 提出了一些新的翻墙解决方案，这些方案理论上来说更为安全，甚至达到了完全欺骗，安全性极高! 对于追求绝对安全的人来讲，必然优先考虑 Xray 而非 V2ray
