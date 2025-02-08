@@ -101,9 +101,9 @@ sysbench fileio --file-total-size=1G --file-test-mode=rndrw run && \
 sysbench fileio cleanup
 ```
 
-VPS测试参数参考：
+VPS测试参数参考（不要拿自己的电脑跑分去和服务器比，服务器几乎都超售，反正参数都很烂看卖家良心否）：
 
-cpu 大概单核 1000 分左右，多核心 8000 分左右
+买来的 vps 跑分 cpu 大概单核 1000 分左右，多核心 8000 分左右
 
 磁盘读写：大概在 10Mib/s 左右
 
