@@ -6,6 +6,7 @@
 - <https://github.com/imkevinliao/chinese-poetry-sqlite> 中华文化持久化（fastapi orm）
 - <https://github.com/imkevinliao/xray_reality_docker> xray-docker
 - <https://github.com/imkevinliao/noname_docker> noname-docker
+- <https://github.com/imkevinliao/naiveproxy_docker> naiveproxy-docker
   
 - <https://github.imkevinliao.workers.dev/> Github 国内加速（cloudflare托管）
 - <https://ip-95g.pages.dev/>  基于IP地址生成真实地址（cloudflare托管） [源码](https://github.com/imkevinliao/AddressFromIP/tree/main)
