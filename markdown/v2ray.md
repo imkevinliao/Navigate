@@ -45,8 +45,8 @@ wget --no-check-certificate -O tcp.sh https://raw.githubusercontent.com/Mufeiss/
 注意不要使用 http 裸奔（安装面板后第一时间 启用https域名访问）
 
 - X-UI 科学上网 https://github.com/vaxilu/x-ui
-- X-UI 继任者(3x-ui) https://github.com/MHSanaei/3x-ui
-- X-UI 继任者(x-ui) https://github.com/qist/xray-ui 
+- X-UI 继任者(3x-ui Xray 作者认为其不安全) https://github.com/MHSanaei/3x-ui
+- X-UI 继任者(x-ui Xray 作者推荐这个而非3x-ui) https://github.com/qist/xray-ui 
 
 # 流媒体
 - 流媒体检测 https://github.com/lmc999/RegionRestrictionCheck.git
