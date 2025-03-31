@@ -61,3 +61,4 @@
 * <https://codeimg.io/> 效率工具：在线代码转图片
 * <https://excalidraw.com/> 效率工具：在线绘图
 * <https://wechat.sxcto.com/> 微信对话生成器
+* <https://github.com/loks666/get_jobs> AI 求职
