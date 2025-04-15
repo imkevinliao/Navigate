@@ -33,6 +33,7 @@
 - <https://github.com/soimort/you-get> Python 下载视频
 - <https://github.com/AUTOMATIC1111/stable-diffusion-webui>  自行本地部署 大模型图片生成
 - <https://github.com/IgorMundstein/WinMemoryCleaner> Windows 内存清理
+- <https://github.com/quantrancse/epub-translator> epub-translator
 ---
 - <https://www.voidtools.com/zh-cn/> 文件搜索查找工具
 - <https://www.faststone.org/> 看图
