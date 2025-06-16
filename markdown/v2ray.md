@@ -1,5 +1,5 @@
 # 科学上网
-跨越长城
+跨越长城（大佬）https://github.com/teddysun/across/tree/master/docker
 
 # V2ray Or Xray | Bright Future
 分支（两大分支）
