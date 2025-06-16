@@ -10,7 +10,7 @@
   
 - <https://github.imkevinliao.workers.dev/> Github 国内加速（cloudflare托管）
 - <https://ip-95g.pages.dev/>  基于IP地址生成真实地址（cloudflare托管） [源码](https://github.com/imkevinliao/AddressFromIP/tree/main)
-- [科学上网 服务器评测](./markdown/v2ray.md)
+- [科学上网](./markdown/v2ray.md)
 # Public Repository
 - <https://imkevinliao.github.io/convert/> 获取 Github 上某个文件的原始文件 URL
 - <https://github.com/imkevinliao/crypto> 自制的加密软件
