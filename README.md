@@ -5,6 +5,7 @@
 - <https://github.com/imkevinliao/golang-docs> Golang 编程的相关内容
 - <https://github.com/imkevinliao/chinese-poetry-sqlite> 中华文化持久化（fastapi orm）
 - <https://github.com/imkevinliao/xray_reality_docker> xray-docker
+- <https://github.com/imkevinliao/hysteria_docker> hysteria-docker
 - <https://github.com/imkevinliao/noname_docker> noname-docker
 - <https://github.com/imkevinliao/naiveproxy_docker> naiveproxy-docker
   
