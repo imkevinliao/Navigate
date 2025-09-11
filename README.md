@@ -1,5 +1,5 @@
 # Navigate
-- <https://github.com/imkevinliao/imkevinliao.github.io> 个人博客·网站
+- ~~<https://github.com/imkevinliao/imkevinliao.github.io> 个人博客·网站~~
 - <https://github.com/imkevinliao/ubuntu-docs> Ubuntu Docs
 - <https://github.com/imkevinliao/python-docs> Python 编程的相关内容
 - <https://github.com/imkevinliao/golang-docs> Golang 编程的相关内容
