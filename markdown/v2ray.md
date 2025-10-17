@@ -111,6 +111,7 @@ VPS测试参数参考（不要拿自己的电脑跑分去和服务器比，服�
 - Shadowrocket 分流规则 https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
 - Shadowrocket 分流规则 https://github.com/GMOogway/shadowrocket-rules
 - Shadowrocket 模块去广告 https://github.com/deezertidal/shadowrocket-rules?tab=readme-ov-file
+- Shadowrocket 文档 https://github.com/LOWERTOP/Shadowrocket
 
 # ACME (申请证书）
 - ACME https://github.com/acmesh-official/acme.sh.git
