@@ -8,11 +8,12 @@
 
 ## 脚本
 v2ray/xray:
-- https://github.com/Jrohy/multi-v2ray （自定义丰富）
 - https://github.com/mack-a/v2ray-agent （推荐）
+- https://github.com/Jrohy/multi-v2ray （自定义推荐）
+- https://github.com/233boy/v2ray/tree/master （新手推荐）
 - https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
-- https://github.com/233boy/v2ray/tree/master （推荐：适合新手小白 ）
 - https://github.com/wulabing/Xray_onekey
+- https://github.com/wulabing/xray_docker （docker）
 
 Hysteria:
 - https://github.com/Misaka-blog/hysteria-install
