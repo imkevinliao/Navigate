@@ -16,9 +16,9 @@ v2ray/xray:
 - https://github.com/wulabing/xray_docker （docker）
 
 Hysteria:
+- https://github.com/emptysuns/Hi_Hysteria (推荐 Star最多)
 - https://github.com/Misaka-blog/hysteria-install
 - https://github.com/ReturnFI/Hysteria2/tree/main  (>Ubuntu22.04)
-- https://github.com/emptysuns/Hi_Hysteria (Most Star)
 
 ## 客户端
 - https://github.com/2dust/v2rayN [Windows]
