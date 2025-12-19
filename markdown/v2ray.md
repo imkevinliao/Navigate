@@ -135,6 +135,7 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/one-click-installation-scri
 
 # 其他
 - <https://github.com/v2fly/v2ray-examples> [模板 自主搭建会用得上（小白绕道）]
+- <https://github.com/XTLS/Xray-examples> [模板 xray 自主搭建]
 - <https://github.com/txthinking/brook> [科学上网工具-专为开发者]
 - <https://github.com/hijkpw/scripts/tree/master> [各类脚本 已停止更新维护]
 - <https://github.com/The-Run-Philosophy-Organization/run> [润学]
